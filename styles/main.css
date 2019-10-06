@@ -694,61 +694,6 @@ p {
 
 /* = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = */
 
-.en-form .c-form ::placeholder { color: rgba(0,0,0,0.2);}
-.en-form .c-form {
-  margin-top: 50px;
-  box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.15);
-  padding: 5vw 20vw;
-  background-color: white;
-  position: relative;
-}
-@media (max-width: 576px) {
-  .en-form .c-form { padding: 10vw;}
-}
-.en-form .c-form input, .en-form .c-form select, .en-form .c-form textarea {
-  width: 100%;
-  margin: 10px 0;
-  border: solid 1px rgba(0,0,0, 0.2);
-  border-radius: 2px;
-  height: 40px;
-  font-size: 16px;
-  padding: 0 15px 0 15px;
-  line-height: 40px;
-}
-
-.en-form .c-form textarea {
-  height: 100px;
-  line-height: 26px;
-  padding-top: 8px;
-}
-
-.en-form .c-form select.custom-select{
-  max-width: 100%;
-  min-width: 100%;
-  background: none;
-  background-color: white;
-  padding-right: 35px;
-}
-
-.en-form .c-form select.custom-select:required:invalid, .en-form .c-form select.custom-select option[value=""][disabled]{
-  color: rgba(0,0,0,0.2);
-}
-.en-form .c-form .c-select{
-  position: relative;
-  width: 100%;
-}
-.en-form .c-form .c-select::after{
-  content: ' ';
-  position: absolute;
-  right: 0;
-  width: 0;
-  height: 0;
-  top: 25px;
-  right: 10px;
-  border-style: solid;
-  border-width: 7px 7px 0 7px;
-  border-color: #DB143A transparent transparent transparent;
-}
 .en-form .c-form p{
   font-size: .9em;
   font-weight: 600;
@@ -794,15 +739,6 @@ p {
   width: 10em;
   border: 1px solid rgba(0,0,0, 0.2);
 }
-.en-form p.require::after {
-  content: '*';
-  font-size: 1.3em;
-  color: #DB143A;
-  font-weight: bold;
-  margin-left: .2em;
-  position: relative;
-  top: .2em;
-}
 
 .c-radio-group {
   text-align: left;
@@ -815,12 +751,13 @@ p {
   font-family: arial;
   display: inline-block;
   position: relative;
-  padding-left: 30px;
+  padding-left: 26px;
   margin-bottom: 5px;
   padding-top: 1px;
   cursor: pointer;
   font-size: 16px;
-  padding-right: 40px;
+  padding-right: 10px;
+  line-height: 40px;
 }
 .c-radio input {
   position: absolute;
@@ -829,7 +766,7 @@ p {
 }
 .c-radio >div {
   position: absolute;
-  top: 2px;
+  top: 10px;
   left: 0;
   height: 20px;
   width: 20px;
@@ -1308,5 +1245,160 @@ img.custom-9 {
 }
 h1.custom-1{
   font-size: 1.8em !important;
+}
+/*---------------------------------------------------*/
+.i-banner{
+  margin: 4em 0 0 0;
+  height: 15em;
+}
+.i-banner >div{
+  padding: 0;
+  color: white;
+  text-align: center;
+}
+.i-banner h1 {
+  font-size: 2.2em;
+  margin-bottom: .2em;
+}
+.i-banner h2 {
+  font-size: 1em; 
+  letter-spacing: 1px;
+}
+.i-bar-div {
+  padding: 3em 6em;
+  margin: 0;
+  min-height: 25em;
+}
+.i-bar-div >div {
+  text-align: center;
+  padding: 0;
+}
+.i-bar-div >div >img {
+  width: 80%;
+}
+.i-bar-div >div >p {
+  padding: 3em 2em;
+  text-align: left;
+}
+@media (max-width: 1200px) { 
+  .i-bar-div {padding: 1em 1em; }
+}
+.i-bar-div .icon-pic {
+  margin: -4em 10% 0 10%;
+  width: 45%;
+}
+.i-form {
+  background-color: #D8D8D8;
+  width: 100%;
+}
+.i-form >div {
+  padding: 4em 10em;
+  margin: auto;
+  max-width: 80em;
+  width: 100%;
+}
+.i-form h1 {
+  width: 100%;
+  text-align: center;
+  font-size: 2em;
+  margin-bottom: 1em;
+}
+.i-form input{
+  width: 100%;
+}
+.i-form label {
+  width: 100%;
+}
+.i-form label p{
+  margin: 1.5em 0 .3em 0;
+  width: 100%;
+}
+.i-form label p.require::after {
+  content: '*';
+  font-size: 1.3em;
+  color: #DB143A;
+  font-weight: bold;
+  margin-left: .2em;
+  position: relative;
+  top: .2em;
+}
+@media (max-width: 1200px) { 
+  .i-form >div{padding: 4em 1.5em; }
+}
+.i-form ::placeholder { color: rgba(0,0,0,0.2);}
+.i-form input, .i-form select, .i-form textarea {
+  width: 100%;
+  /*margin: 10px 0;*/
+  border: solid 1px rgba(0,0,0, 0.2);
+  border-radius: 2px;
+  height: 40px;
+  font-size: 16px;
+  padding: 0 15px 0 15px;
+  line-height: 40px;
+}
+
+.i-form textarea {
+  height: 100px;
+  line-height: 26px;
+  padding-top: 8px;
+}
+
+.i-form select.custom-select{
+  max-width: 100%;
+  min-width: 100%;
+  background: none;
+  background-color: white;
+  padding-right: 35px;
+}
+
+.i-form select.custom-select:required:invalid, .i-form select.custom-select option[value=""][disabled]{
+  color: rgba(0,0,0,0.2);
+}
+.i-form .c-select{
+  position: relative;
+  width: 100%;
+}
+.i-form .c-select::after{
+  content: ' ';
+  position: absolute;
+  right: 0;
+  width: 0;
+  height: 0;
+  top: 17px;
+  right: 10px;
+  border-style: solid;
+  border-width: 7px 7px 0 7px;
+  border-color: #DB143A transparent transparent transparent;
+}
+.i-form label.c-radio {
+  width: auto;
+}
+.i-form input[type="submit"] {
+  background-color: #B3272D;
+  color: white;
+  border-radius: 50px;
+  height: 50px;
+  line-height: 50px;
+  width: 50%;
+  text-align: center;
+  margin: 30px 0;
+  cursor: pointer;
+  max-width: 200px;
+}
+/*---------------------------------------------------*/
+.talents .i-banner {
+  background-color: #EBCC23;
+}
+.talents div.i-bar-div {
+  background-color: #FFEA92;
+  color: #806239;
+}
+.talents div.i-bar-div:nth-of-type(even) {
+  background-color: rgba(255,234,146,.2);
+
+}
+
+.talents .custom-1 {
+  width: 30%;
 }
 /*---------------------------------------------------*/
