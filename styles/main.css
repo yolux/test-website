@@ -1258,14 +1258,14 @@ h1.custom-1{
 }
 .i-banner h1 {
   font-size: 2.2em;
-  margin-bottom: .2em;
+  margin-bottom: .4em;
 }
 .i-banner h2 {
   font-size: 1em; 
   letter-spacing: 1px;
 }
 .i-bar-div {
-  padding: 3em 6em;
+  padding: 3em 13%;
   margin: 0;
   min-height: 25em;
 }
@@ -1395,10 +1395,194 @@ h1.custom-1{
 }
 .talents div.i-bar-div:nth-of-type(even) {
   background-color: rgba(255,234,146,.2);
-
 }
-
 .talents .custom-1 {
   width: 30%;
 }
+/*---------------------------------------------------*/
+.teaching .i-banner {
+  background-color: #EDA23B;
+}
+.teaching div.i-bar-div {
+  background-color: #FFD199;
+  color: #C9481B;
+}
+.teaching div.i-bar-div h1 {
+  color: #E35A24;
+  text-align: left;
+  padding-left: 1em;
+  font-size: 2em;
+  padding-top: 1em;
+}
+.teaching div.i-bar-div:nth-of-type(even) {
+  background-color: #FFEEE3;
+}
+/*---------------------------------------------------*/
+.campus .i-banner {
+  background-color: #FFADC2;
+}
+.campus div.i-bar-div {
+  background-color: #FFE3EC;
+  color: #E40580;
+}
+.campus div.i-bar-div h1 {
+  color: #CB0267;
+  text-align: left;
+  padding-left: 1em;
+  font-size: 2em;
+  padding-top: 1em;
+}
+/*---------------------------------------------------*/
+.about .i-banner {
+  background-color: #91C8ED;
+}
+.about div.i-bar-div {
+  background-color: #91C8ED;
+  color: #034D77;
+}
+.about div.i-bar-div h1 {
+  color: #0071AE;
+  text-align: left;
+  padding-left: 1em;
+  font-size: 2em;
+  padding-top: 1em;
+}
+.about div.i-bar-div h2 {
+  color: #0071AE;
+  text-align: left;
+  padding-left: 1.3em;
+  font-size: 1.5em;
+  padding-top: 1em;
+}
+.about div.i-bar-div:nth-of-type(even) {
+  background-color: #D2EFFF;
+}
+.about .custom-1 {
+  padding-left: 2em;
+  width: 60%;
+  position: relative;
+  top: -2em;
+}
+.about .custom-1 img {
+  width: 48%;
+  padding-right: 5%;
+  float: left;
+}
+.about .custom-1 span {
+  width: 48%;
+  display: inline-block;
+  float: left;
+  margin-top: 1em;
+  font-size: .9em;
+  text-align: left;
+  padding-left: .4em;
+}
+.about .custom-2 {
+  position: relative;
+  top: -2.5em;
+}
+.about .custom-2 span {
+  color: #034D77;
+  text-align: left;
+  display: inline-block;
+  width: 100%;
+  padding-left: 2em;
+}
+.about .custom-3 {
+  position: relative;
+  top: -2.5em;
+  width: 100%;
+}
+.about .custom-3 span {
+  color: #034D77;
+  text-align: left;
+  display: inline-block;
+  padding-left: 1em;
+  line-height: 2em;
+}
+.about .custom-3 >a >div {
+  width: 48%;
+  display: inline-block;
+  margin-top: .5em;
+  text-align: left;
+  padding-left: 1.4em;
+}
+.about .custom-3 >a >div >img{
+  width: 2em;
+}
+.about .custom-4 h1, .about .custom-4 p {
+  text-align: center !important;
+}
+.about .custom-4 p {
+  padding: 1em 4em 2em 4em;
+} 
+.about .custom-5 img {
+  padding: 2%;
+  width: 100%;
+}
+.about .custom-6 {
+  padding-top: 2em;
+}
+.about .custom-6 >div {
+  margin: auto;
+  background-color: white;
+  width: 14vw;
+  height: 14vw;
+  border-radius: 14vw;
+  text-align: center;
+  color: black;
+  font-size: 1.2em;
+  line-height: 1.6em;
+  position: relative;
+}
+.about .custom-6 >div img {
+  position: absolute;
+  right: -2em;
+  width: .8em;
+  top: 6vw;
+}
+.about .custom-6 >p {
+  padding-top: 1.5em;
+}
+@media (max-width: 768px) { 
+  .about .custom-6 >div {
+    width: 11em;
+    height: 11em;
+    border-radius: 11em;
+  }
+  .about .custom-6 >p {
+    padding: 1.5em 20vw 0 20vw;
+  }
+  .about .custom-6 >div img {
+    display: none;
+  }
+}
+.about .color-1 {background-color: #91C8ED !important;}
+.about .color-2 {background-color: #65CED1 !important;}
+.about .color-3 {background-color: #EBCC23 !important;}
+.about .color-4 {background-color: #FFADC2 !important;}
+.about .custom-7 >h2 {
+  padding: 1.5em 3em !important;
+  font-size: 1.2em !important;
+  text-align: center !important;
+}
+/*---------------------------------------------------*/
+.plane .i-banner {
+  background-color: #48B8C1;
+}
+.plane div.i-bar-div {
+  background-color: #48B8C1;
+  color: #48B8C1;
+}
+.plane div.i-bar-div h1 {
+  color: #00999D;
+  text-align: left;
+  padding-left: 1em;
+  font-size: 2em;
+  padding-top: 1em;
+}
+.talents div.i-bar-div:nth-of-type(even) {
+  background-color: rgba(136,234,226,.2);
+}
+
 /*---------------------------------------------------*/
