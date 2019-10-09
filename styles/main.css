@@ -877,7 +877,7 @@ label.c-checkbox >input[type="checkbox"]:checked ~div {background-image: url('..
 .s-header .logo{
   position: absolute;
   top: 0;
-  left: 3.5%;
+  left: 6.5%;
   width: 6em;
   height: 7em;
   z-index: 1001;
@@ -891,7 +891,7 @@ label.c-checkbox >input[type="checkbox"]:checked ~div {background-image: url('..
 }
 .s-header .link-menu {
   position: absolute;
-  left: calc(10% + 6em);
+  left: calc(10% + 10em);
   width: calc(90% - 14em);
   height: 100%;
   max-width: 600px;
@@ -909,7 +909,7 @@ label.c-checkbox >input[type="checkbox"]:checked ~div {background-image: url('..
   right: 0;
   width: auto;
   height: 100%;
-  padding: 1em 2em 1em 0;
+  padding: 1em 5em 1em 0;
   z-index: 1001;
 }
 .s-header .social-menu >a >img, .s-header .social-menu >img{
@@ -1032,7 +1032,7 @@ label.c-checkbox >input[type="checkbox"]:checked ~div {background-image: url('..
 }
 
 .carousel-caption p {
-  color: black;
+  color: #007ab7;
   font-size: 1em;
 }
 
