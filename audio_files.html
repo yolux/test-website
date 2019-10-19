@@ -1,0 +1,428 @@
+<!doctype html>
+<html lang="zh-Hant">
+  <head>
+    <title>夏恩英語</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css">
+    <link rel="stylesheet" href="styles/home.css">
+    <link rel="stylesheet" href="styles/logined.css">
+  </head>
+   <body>
+
+    <div class="container-fluid main c-header">
+      <div>
+        <div class="slogan"><span>向世界邁進，從夏恩英語出發</span> Move Ahead with Shane English School</div>
+        <div class="pm-member-info">
+          <div>
+            <span class="icon user"></span>
+            <div class="row align-items-center dropdown d-inline-block" aria-haspopup="true" aria-expanded="false">
+              <div class="col">內湖分校</div>
+              <div class="dropdown-menu dropdown-menu-center">
+                <a class="dropdown-item" href="http://shane.wowfh.com/html/announcement.html">夏恩公告</a>
+                <a class="dropdown-item" href="http://shane.wowfh.com/html/branch_school.html">分校資訊</a>
+                <a class="dropdown-item" href="http://shane.wowfh.com/html/audio_files.html">聲音檔下載</a>
+              </div>
+            </div>
+          </div>
+          <div><a href="#">登出</a></div>
+        </div>
+        <div class="social-ico">
+          <a href="#"><div class="icon youtube"></div></a>
+          <a href="#"><div class="icon line"></div></a>
+          <a href="#"><div class="icon fb"></div></a>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="modal fade" id="login-modal" tabindex="-1" role="dialog" aria-labelledby="login-modal-label" aria-hidden="true">
+      <div class="modal-dialog modal-sm" role="document">
+        <div class="modal-content popup-login">
+
+          <h1 id="login-modal-label">分校登入</h1>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+          <input type="text" class="error" placeholder="登入帳號">
+          <input type="text" placeholder="密碼">
+          <button type="button" class="btn forgot" data-toggle="modal" data-target="#forgot-pw-modal">忘記密碼？</button>
+          <button type="button" class="btn confirm">登入</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="forgot-pw-modal" tabindex="-1" role="dialog" aria-labelledby="login-modal-label" aria-hidden="true">
+      <div class="modal-dialog modal-sm" role="document">
+        <div class="modal-content popup-login">
+
+          <h1 id="login-modal-label">忘記密碼</h1>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+          <input type="text" class="error" placeholder="信箱認證">
+          <p>不用擔心,只需要填信箱我們將會送給您重設密碼說明</p>
+          <button type="button" class="btn confirm">送出</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="reset-pw-modal" tabindex="-1" role="dialog" aria-labelledby="login-modal-label" aria-hidden="true">
+      <div class="modal-dialog modal-sm" role="document">
+        <div class="modal-content popup-login">
+
+          <h1 id="login-modal-label">重設密碼</h1>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+          <input type="text" class="error" placeholder="新密碼">
+          <input type="text" placeholder="確認密碼">
+          <p></p>
+          <button type="button" class="btn confirm">重設</button>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="container-fluid mobile-nav mobile-only">
+      <a href="http://shane.wowfh.com/html/home.html" class="logo"></a>
+      <div class="ham" id="mobile-nav-ham"></div>
+      <div id="mobile-hidden-panel" class="hidden-panel">
+        <div>
+          <a href="#">
+            <div id="clp-header-1">
+              <span>關於夏恩</span>
+              <button class="collapsed" type="button" data-toggle="collapse" data-target="#clp-col-1" aria-expanded="true" aria-controls="clp-col-1"> ▼ </button>
+            </div>
+          </a>
+          <div id="clp-col-1" class="collapse" aria-labelledby="clp-header-1" data-parent="#mobile-hidden-panel">
+            <a href="http://shane.wowfh.com/html/brand.html"><div><span>夏恩國際教育</span></div></a>
+            <a href="http://shane.wowfh.com/html/history.html"><div><span>夏恩歷史＆故事</span></div></a>
+            <a href="http://shane.wowfh.com/html/about.html"><div><span>創辦人的話</span></div></a>
+            <a href="http://shane.wowfh.com/html/our_teachers.html"><div><span>Meet Our Teacher</span></div></a>
+            <a href="#"><div><span>為何選擇我們</span></div></a>
+          </div>
+        </div>
+        <div>
+          <a href="http://shane.wowfh.com/html/news.html">
+            <div id="clp-header-2">
+              <span>最新消息</span>
+            </div>
+          </a>
+        </div>
+        <div>
+          <a href="http://shane.wowfh.com/html/class.html">
+            <div id="clp-header-3">
+              <span>課程資訊</span>
+              <button class="collapsed" type="button" data-toggle="collapse" data-target="#clp-col-3" aria-expanded="false" aria-controls="clp-col-3"> ▼ </button>
+            </div>
+          </a>
+          <div id="clp-col-3" class="collapse" aria-labelledby="clp-header-3" data-parent="#mobile-hidden-panel">
+            <a href="http://shane.wowfh.com/html/class.html"><div><span>3-6歲幼兒英語RS課程</span></div></a>
+            <a href="http://shane.wowfh.com/html/class.html"><div><span>6-11歲幼兒英語課程</span></div></a>
+            <a href="http://shane.wowfh.com/html/class.html"><div><span>11-16歲TES國際英語課程</span></div></a>
+            <a href="http://shane.wowfh.com/html/class.html"><div><span>成人精緻課程</span></div></a>
+            <a href="http://shane.wowfh.com/html/class.html"><div><span>師資派遣服務</span></div></a>
+            <a href="http://shane.wowfh.com/html/class.html"><div><span>外籍教師個別指導班</span></div></a>
+          </div>
+        </div>
+        <div>
+          <a href="http://shane.wowfh.com/html/school.html">
+            <div>
+              <span>分校資訊</span>
+            </div>
+          </a>
+        </div>
+        <div>
+          <a href="http://shane.wowfh.com/html/elearning.html">
+            <div>
+              <span>線上學習</span>
+            </div>
+          </a>
+        </div>
+        <div>
+          <a href="http://shane.wowfh.com/html/add.html">
+            <div>
+              <span>加盟夏恩</span>
+            </div>
+          </a>
+        </div>
+        <div>
+          <a href="http://shane.wowfh.com/html/camp.html">
+            <div>
+              <span>寒暑營隊</span>
+            </div>
+          </a>
+        </div>
+        <div class="pm-logined-menu">
+          <a href="http://shane.wowfh.com/html/announcement.html">
+            <div>
+              <span>夏恩公告</span>
+            </div>
+          </a>
+        </div>
+        <div class="pm-logined-menu">
+          <a href="http://shane.wowfh.com/html/branch_school.html">
+            <div>
+              <span>分校資訊</span>
+            </div>
+          </a>
+        </div>
+        <div class="pm-logined-menu">
+          <a href="http://shane.wowfh.com/html/audio_files.html">
+            <div>
+              <span>聲音檔下載</span>
+            </div>
+          </a>
+        </div>
+        <div class="pm-logined-menu">
+          <a href="#">
+            <div>
+              <span>登出</span>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid main c-nav pc-only">
+      <div>
+        <a href="http://shane.wowfh.com/html/home.html" class="logo"></a>
+        <div class="menu">
+          <div class="row align-items-center dropdown" aria-haspopup="true" aria-expanded="false">
+            <div class="mark"></div>
+            <div class="col"><a href="http://shane.wowfh.com/html/about.html">關於夏恩</a></div>
+            <div class="dropdown-menu dropdown-menu-center">
+              <a class="dropdown-item" href="http://shane.wowfh.com/html/brand.html">夏恩國際教育</a>
+              <a class="dropdown-item" href="http://shane.wowfh.com/html/history.html">夏恩歷史＆故事</a>
+              <a class="dropdown-item" href="http://shane.wowfh.com/html/about.html">創辦人的話</a>
+              <a class="dropdown-item" href="http://shane.wowfh.com/html/our_teachers.html">Meet Our Teacher</a>
+              <div class="dropdown-submenu">
+                <a class="dropdown-item" href="#" data-toggle="dropdown">為何選擇我們</a>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="#">夏恩優勢</a>
+                  <a class="dropdown-item" href="#">選擇我們五大理由</a>
+                  <a class="dropdown-item" href="#">夏恩學生經驗分享</a>
+                  <a class="dropdown-item" href="#">英語學習Tips</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row align-items-center dropdown" aria-haspopup="true" aria-expanded="false">
+            <div class="mark"></div>
+            <div class="col"><a href="http://shane.wowfh.com/html/news.html">最新消息</a></div>
+          </div>
+          <div class="row align-items-center dropdown" aria-haspopup="true" aria-expanded="false">
+            <div class="mark"></div>
+            <div class="col"><a href="http://shane.wowfh.com/html/class.html">課程資訊</a></div>
+            <div class="dropdown-menu dropdown-menu-center">
+              <a class="dropdown-item" href="#">3-6歲幼兒英語RS課程</a>
+              <a class="dropdown-item" href="#">6-11歲幼兒英語課程</a>
+              <a class="dropdown-item" href="#">11-16歲TES國際英語課程</a>
+              <a class="dropdown-item" href="#">成人精緻課程</a>
+              <a class="dropdown-item" href="#">師資派遣服務</a>
+              <a class="dropdown-item" href="#">外籍教師個別指導班</a>
+            </div>
+          </div>
+          <div class="row align-items-center dropdown" aria-haspopup="true" aria-expanded="false">
+            <div class="mark"></div>
+            <div class="col"><a href="http://shane.wowfh.com/html/school.html">分校資訊</a></div>
+          </div>
+          <div class="row align-items-center dropdown" aria-haspopup="true" aria-expanded="false">
+            <div class="mark"></div>
+            <div class="col"><a href="http://shane.wowfh.com/html/elearning.html">線上學習</a></div>
+            <div class="dropdown-menu dropdown-menu-center">
+              <a class="dropdown-item" href="#">Shane Spelling Bee APP</a>
+              <a class="dropdown-item" href="#">夏恩影片</a>
+              <a class="dropdown-item" href="#">線上單字網</a>
+            </div>
+          </div>
+          <div class="row align-items-center dropdown" aria-haspopup="true" aria-expanded="false">
+            <div class="mark"></div>
+            <div class="col"><a href="http://shane.wowfh.com/html/add.html">加盟夏恩</a></div>
+          </div>
+          <div class="row align-items-center dropdown" aria-haspopup="true" aria-expanded="false">
+            <div class="mark"></div>
+            <div class="col"><a href="http://shane.wowfh.com/html/camp.html">寒暑營隊</a></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- - - - - - - - - - - - - - - - - - - - - - - - - - content start here - - - - - - - - - - - - - - - - - - - - - - - - - -->
+
+    <div class="container-fluid main">
+      <div>
+        <div class="container-fluid carousel pm-carousel slide" data-ride="carousel" id="main-carousel" >
+          <div class="carousel-inner">
+            <div class="carousel-item">
+              <div class="carousel-caption">
+                <a href="http://shane.wowfh.com/html/announcement.html"><h1>內湖分校</h1></a>
+                <a href="http://shane.wowfh.com/html/announcement.html"><h2>夏恩公告</h2></a>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="carousel-caption">
+                <a href="http://shane.wowfh.com/html/announcement.html"><h1>內湖分校</h1></a>
+                <a href="http://shane.wowfh.com/html/branch_school.html"><h2>分校資訊</h2></a>
+              </div>
+            </div>
+            <div class="carousel-item active">
+              <div class="carousel-caption">
+                <a href="http://shane.wowfh.com/html/announcement.html"><h1>內湖分校</h1></a>
+                <a href="http://shane.wowfh.com/html/audio_files.htmls"><h2 class="active">聲音檔下載</h2></a>
+              </div>
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#main-carousel" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#main-carousel" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+
+        <div class="pm-side-menu">
+          <div><a href="http://shane.wowfh.com/html/announcement.html">夏恩公告</a></div>
+          <div><a href="http://shane.wowfh.com/html/branch_school.html">分校資訊</a></div>
+          <div class="active"><a href="http://shane.wowfh.com/html/audio_files.html">聲音檔下載</a></div>
+        </div>
+
+        <div class="pm-main-div">
+          <div class="c-card">
+            <div class="text-left">
+              <div class="dropdown audio-category-selector">
+                <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  請選擇你的分類
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                  <a class="dropdown-item" href="#">RISING STARS</a>
+                  <a class="dropdown-item" href="#">RISING STARS 1</a>
+                  <a class="dropdown-item" href="#">RISING STARS 2</a>
+                  <a class="dropdown-item" href="#">RISING STARS 3</a>
+                  <a class="dropdown-item" href="#">RISING STARS 4</a>
+                  <a class="dropdown-item" href="#">RISING STARS 5</a>
+                  <a class="dropdown-item" href="#">RISING STARS 6</a>
+                </div>
+              </div>
+
+              <div class="audio-files">
+                <div class="row align-items-center">
+                  <div class="col col-lg-6">01 Hello,Hello-Full 01 Hello,Hello-Full 01 Hello,Hello-Full 01 Hello,Hello-Full 01 Hello,Hello-Full</div>
+                  <div class="col col-lg-6 text-right">
+                    <audio style="height:30px; margin-top: 10px;" controls></audio>
+                  </div>
+                </div>
+                <div class="row align-items-center">
+                  <div class="col col-lg-6">02 Hello,Hello-Gap fill</div>
+                  <div class="col col-lg-6 text-right">
+                    <audio style="height:30px; margin-top: 10px;" controls></audio>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!--  - - - - - - - - - - - - - - - - - - - - - - - - - content end here - - - - - - - - - - - - - - - - - - - - - - - - - -->
+    <div class="container-fluid main c-map">
+      <div>
+        <div class="row justify-content-between">
+          <div class="col-12 col-md-6 col-lg-auto">
+            <div class="c-card">
+              <a href="http://shane.wowfh.com/html/brand.html"><div>關於夏恩</div></a>
+              <a href="http://shane.wowfh.com/html/brand.html"><div>夏恩國際教育</div></a>
+              <a href="http://shane.wowfh.com/html/history.html"><div>夏恩的故事 & 歷史</div></a>
+              <a href="http://shane.wowfh.com/html/about.html"><div>創辦人的話</div></a>
+              <a href="http://shane.wowfh.com/html/our_teachers.html"><div>Meet Our teachers</div></a>
+              <a href="http://shane.wowfh.com/html/story.html"><div>為何選擇我們</div></a>
+            </div>
+            <div class="c-card">
+              <a href="http://shane.wowfh.com/html/elearning.html"><div>線上學習</div></a>
+              <a href="＃"><div>Shane Spelling Bee APP</div></a>
+              <a href="＃"><div>夏恩影片</div></a>
+              <a href="＃"><div>線上單字網</div></a>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-auto">
+            <div class="c-card">
+              <a href="http://shane.wowfh.com/html/class.html"><div>英語課程</div></a>
+              <a href="http://shane.wowfh.com/html/class.html"><div>3-6歲幼兒英語RS課程</div></a>
+              <a href="http://shane.wowfh.com/html/class.html"><div>6-11歲幼兒英語課程</div></a>
+              <a href="http://shane.wowfh.com/html/class.html"><div>11-16歲TES國際英語課程</div></a>
+              <a href="http://shane.wowfh.com/html/class.html"><div>成人精緻課程</div></a>
+              <a href="http://shane.wowfh.com/html/class.html"><div>師資派遣服務</div></a>
+              <a href="http://shane.wowfh.com/html/class.html"><div>外籍教師個別指導班</div></a>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-auto">
+            <div class="c-card">
+              <a href="＃"><div>最新消息</div></a>
+            </div>
+            <div class="c-card">
+              <a href="http://shane.wowfh.com/html/school.html"><div>分校查詢</div></a>
+            </div>
+            <div class="c-card">
+              <a href="http://shane.wowfh.com/html/add.html"><div>加盟夏恩</div></a>
+            </div>
+            <div class="c-card">
+              <a href="http://shane.wowfh.com/html/camp.html"><div>寒暑營隊</div></a>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-auto">
+            <div class="c-card">
+              <div>
+                <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FShaneEnglishShuLin%2F&tabs=timeline&width=300&height=130&small_header=false&adapt_container_width=false&hide_cover=false&show_facepile=false&appId" width="300" height="130" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+              </div>
+            </div>
+            <div class="login pm-login-entry" data-toggle="modal" data-target="#login-modal"><span class="icon user"></span><a href="#">分校登入</a></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid main c-footer">
+      <div>
+        <div class="row">
+          <div class="col-12 row justify-content-center">
+            <div class="col-auto split">夏恩國際教育股份有限公司 (夏恩英語)</div>
+            <div class="col-auto split">台北市中正區博愛路148號4樓</div>
+            <div class="col-auto split">karen.lu@shane.com.tw</div>
+          </div>
+          <div class="col-12 row justify-content-center">
+            <div class="col-auto">Copyright © 2015</div>
+            <div class="col-auto">Shane English School Taiwan.</div>
+            <div class="col-auto">All rights reserved.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="fb-root"></div>
+    <!-- jquery slim is not enough for jquery ui <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script> -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+    <script>
+      $( "#mobile-nav-ham" ).click(function() {
+        $( "#mobile-hidden-panel" ).toggle( 'slide',{direction: "right" },400);
+      });
+      $( "#mobile-panel-ham" ).click(function() {
+        $( "#mobile-hidden-panel" ).toggle( 'slide',{direction: "right" },400);
+      });
+      $("#main-carousel").carousel({interval: false});
+      function playAudio(obj) {
+        var vid = document.getElementById(obj);
+        vid.play();
+      }
+    </script>
+
+  </body>
+</html>
