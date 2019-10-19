@@ -1,0 +1,323 @@
+<!doctype html>
+<html lang="zh-Hant">
+  <head>
+    <title>夏恩英語</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css">
+    <link rel="stylesheet" href="styles/home-eng.css">
+  </head>
+   <body>
+
+    <div class="container-fluid main c-header">
+      <div>
+        <div class="slogan blue-theme">Move Ahead with Shane English School</div>
+        <div class="social-ico">
+          <a href="#"><div class="icon youtube"></div></a>
+          <a href="#"><div class="icon line"></div></a>
+          <a href="#"><div class="icon fb"></div></a>  
+        </div>
+        
+      </div>
+    </div>
+
+    <div class="modal fade" id="login-modal" tabindex="-1" role="dialog" aria-labelledby="login-modal-label" aria-hidden="true">
+      <div class="modal-dialog modal-sm" role="document">
+        <div class="modal-content popup-login">
+          
+          <h1 id="login-modal-label">分校登入</h1>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+          <input type="text" class="error" placeholder="登入帳號">
+          <input type="text" placeholder="密碼">
+          <button type="button" class="btn forgot" data-toggle="modal" data-target="#forgot-pw-modal">忘記密碼？</button>
+          <button type="button" class="btn confirm">登入</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="forgot-pw-modal" tabindex="-1" role="dialog" aria-labelledby="login-modal-label" aria-hidden="true">
+      <div class="modal-dialog modal-sm" role="document">
+        <div class="modal-content popup-login">
+          
+          <h1 id="login-modal-label">忘記密碼</h1>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+          <input type="text" class="error" placeholder="信箱認證">
+          <p>不用擔心,只需要填信箱我們將會送給您重設密碼說明</p>
+          <button type="button" class="btn confirm">送出</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="reset-pw-modal" tabindex="-1" role="dialog" aria-labelledby="login-modal-label" aria-hidden="true">
+      <div class="modal-dialog modal-sm" role="document">
+        <div class="modal-content popup-login">
+          
+          <h1 id="login-modal-label">重設密碼</h1>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+          <input type="text" class="error" placeholder="新密碼">
+          <input type="text" placeholder="確認密碼">
+          <p></p>
+          <button type="button" class="btn confirm">重設</button>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="container-fluid mobile-nav mobile-only">
+      <a href="http://shane.wowfh.com/html/home.html" class="logo"></a>
+      <div class="ham blue-theme" id="mobile-nav-ham"></div>
+      <div id="mobile-hidden-panel" class="hidden-panel">
+          
+        <div>
+          <a href="#">
+            <div>
+              <span>Careers at shane</span>
+            </div>
+          </a>
+        </div>
+        <div>
+          <a href="#">
+            <div>
+              <span>What we offer</span>
+            </div>
+          </a>
+        </div>
+        <div>
+          <a href="#">
+            <div>
+              <span>Teaching at shane</span>
+            </div>
+          </a>
+        </div>
+        <div>
+          <a href="#">
+            <div>
+              <span>Locations</span>
+            </div>
+          </a>
+        </div>
+        <div>
+          <a href="#">
+            <div>
+              <span>living in Taiwan</span>
+            </div>
+          </a>
+        </div>
+        
+      </div>
+    </div>
+
+    <div class="container-fluid main c-nav pc-only blue-theme">
+      <div>
+        <a href="http://shane.wowfh.com/html/home.html" class="logo"></a>
+        <div class="menu">
+         
+          <div class="row align-items-center dropdown" aria-haspopup="true" aria-expanded="false">
+            <div class="mark"></div>
+            <div class="col"><a href="#">Careers at shane</a></div>
+          </div>
+
+          <div class="row align-items-center dropdown" aria-haspopup="true" aria-expanded="false">
+            <div class="mark"></div>
+            <div class="col"><a href="#">What we offer</a></div>
+          </div>
+
+          <div class="row align-items-center dropdown" aria-haspopup="true" aria-expanded="false">
+            <div class="mark"></div>
+            <div class="col"><a href="#">Teaching at shane</a></div>
+          </div>
+
+          <div class="row align-items-center dropdown" aria-haspopup="true" aria-expanded="false">
+            <div class="mark"></div>
+            <div class="col"><a href="#">Locations</a></div>
+          </div>
+
+          <div class="row align-items-center dropdown" aria-haspopup="true" aria-expanded="false">
+            <div class="mark"></div>
+            <div class="col"><a href="#">living in Taiwan</a></div>
+          </div>
+         
+        </div>  
+      </div>
+    </div>
+    <!-- - - - - - - - - - - - - - - - - - - - - - - - - - banner start here - - - - - - - - - - - - - - - - - - - - - - - - - -->
+    <div class="row page-banner">
+      <img src="images/living/banner.jpg">
+      <div class="col align-self-center"> 
+        <h1>Living in Taiwan</h1>
+        <p>HOME / Living in Taiwan</p>
+      </div>
+    </div>
+    <!--  - - - - - - - - - - - - - - - - - - - - - - - - - banner end here - - - - - - - - - - - - - - - - - - - - - - - - - -->
+    <!-- - - - - - - - - - - - - - - - - - - - - - - - - - content start here - - - - - - - - - - - - - - - - - - - - - - - - - -->
+    <div class="en-content">
+
+      <div class="row type-1">
+        <div class="col-12">
+          <div class="heading-line"></div><br>
+          <h1>Getting Around </h1>
+          <p>Taiwan has plenty of ways to get from A-B that are readily available, clean, safe, and easy to navigate. They also come in a variety of speeds and prices. Not knowing any Mandarin won’t be a problem but a little xie xie always goes a long way!<br><br>Taipei, Kaohsiung (and soon Taichung) all have excellent Mass Rapid Transit (MRT) systems that run from 6am-12am, with a one-way trip costing NT$10-40. All signage includes English and tourist spots are clearly indicated at each exit. Busses are even cheaper, around NT$15 for a one-way trip in the city, and can be paid for using your MRT card.<br><br>City to city trips will cost a little more, with busses, trains, and the High Speed Rail (HSR) all being an option. The HSR will get you from Taipei in the north to Kaohsiung in the south for NT$1500 in roughly 2 hours, with stops in all the major cities.<br><br>Taxis are abundant but may require some Mandarin (written or spoken). If you’re unable to do that, Uber operates in most cities throughout Taiwan.<br><br>Simple as it may be, Shane English School still provides airport pick up and transport to your arrival hotel to ensure all new teachers have a smooth and hassle-free arrival in Taiwan.</p>
+        </div>
+      </div>
+      
+      <div class="row type-4">
+        <div class="col-12">
+          <img src="images/living/banner01.jpg" class="bg">
+        </div>
+      </div>
+
+       <div class="row type-1">
+        <div class="col-12">
+          <div class="heading-line"></div><br>
+          <h1>Grabbing A Bitei </h1>
+          <p>Taiwan has no shortage of food options. From gourmet hamburgers and deep dish pizza to chicken feet and and the infamous stinky tofu - food in Taiwan is a food adventure in itself.<br><br>In fact, restaurants and food stalls are so abundant that many apartments forego having a kitchen at all. Breakfast, lunch and dinner can usually be found within a stone’s throw of your apartment, and the low price of local food makes cooking at home the more expensive option.<br><br>Breakfast shops cooking the likes of bacon and egg sandwiches (NT40) and Taiwanese egg rolls (NT$30) can be found in every neighbourhood, while local buffet-style restaurants can provide a healthy mix of meat and veg for lunch (NT$120-180). <br><br>In the bigger cities you’ll find restaurants serving cuisines from all corners of the globe, but once you start exploring the local food you’ll find there are loads of tasty treats to be discovered at half the price of what you pay at western-style restaurants, leaving your stomach full and your and your bank account healthy!</p>
+        </div>
+      </div>
+      
+      <div class="row type-4">
+        <div class="col-12">
+          <img src="images/living/banner02.jpg" class="bg">
+        </div>
+      </div>
+
+
+       <div class="row type-1">
+        <div class="col-12">
+          <div class="heading-line"></div><br>
+          <h1>Getting An Apartment</h1>
+          <p>Finding an apartment is one less worry to have when you arrive in Taiwan. Shane English School provides teachers with full assistance in finding a suitable apartment, and aim to have it done within the first week.<br><br>There is a lot to consider when choosing an apartment, such as which area to choose, how much to spend on rent, should it be furnished or not, does it need to be close to public transport, and how important is a kitchen to you.<br><br>During your orientation a member of staff will discuss all your requirements with you and arrange for you to view the apartments that stand out to you. They'll then accompany you to each viewing to help you communicate with the landlord to get a lease signed.<br><br>By the time you begin your first class, you’ll be set up in your own apartment (or shared if you like) and ready to start making it your own.</p>
+        </div>
+      </div>
+      
+      <div class="row type-4">
+        <div class="col-12">
+          <img src="images/living/banner03.jpg" class="bg">
+        </div>
+      </div>
+
+
+       <div class="row type-1">
+        <div class="col-12">
+          <div class="heading-line"></div><br>
+          <h1>Learning The Language </h1>
+          <p>A year in Taiwan is a great opportunity to learn a bit of Mandarin, and there are a couple of ways to go about it. As a Shane teacher you’ll have most mornings free, so time is not a problem.<br><br>If you want to give yourself a crash course (highly advisable if you’re thinking of doing more than a year in Taiwan) you can sign up for morning classes at a university or language centre. These courses usually consist of intensive 3-hour classes each morning plus homework. It’s certainly not for the casual learner but it will provide an excellent foundation to build on.<br><br>For those who prefer to enter from the shallow end, meeting with a private tutor once or twice a week in Starbucks might be more suitable. Private tutors are very affordable, easy to find, and far more flexible. Once you’ve picked up the basics from your tutor there are multiple platforms to help you find a language exchange partner to practice your conversation with.<br><br>Learning even just a little bit of Manderin will completely open your world in Taiwan and give you a much greater experience, so why not get on it right from the start!</p>
+        </div>
+      </div>
+      
+      <div class="row type-4">
+        <div class="col-12">
+          <img src="images/living/banner04.jpg" class="bg">
+        </div>
+      </div>
+
+
+       <div class="row type-1">
+        <div class="col-12">
+          <div class="heading-line"></div><br>
+          <h1>Meeting Up And Making Friends</h1>
+          <p>Orientation week is a great time to meet other teachers who are also just starting their own Taiwan adventure. There will be a fair amount of group work and you’ll surely be bumping into each other throughout the year, so best try remember a few names!  <br><br>But beyond orientation week, Taiwan has a vibrant expat community and a variety of groups and meetups catering to a wide range of interests for those looking to meet like-minded people.<br><br>Meetup.com is a good place to get your feet wet. There you’ll find open-invite groups for hikers, coders, language exchangers, pub crawlers and everything in between. If you’re into sports, there are numerous groups (easily found on Facebook) for rugby, soccer, and gaelic football, just to name just a few. These range from the super casual to the all out professional. And for those who like to round off their exercise with a few social drinks, hash runs are also extremely popular throughout Taiwan<br><br>Taiwan is full of friendly people, and communities are generally very welcoming. Having a diverse group of friends from all parts of the world is truly one of the best parts of living abroad, and something that is bound to stay with you for many years to come.</p>
+        </div>
+      </div>
+      
+      <div class="row type-4">
+        <div class="col-12">
+          <img src="images/living/banner05.jpg" class="bg">
+        </div>
+      </div>
+
+      <div class="row type-1">
+        <div class="col-12">
+          <div class="heading-line"></div><br>
+          <h1>Getting Out And Having Fun</h1>
+          <p>I’m sure we’re not the first ones to tell you that Taiwan summers are just as hot as they are long, which is great for those who like to get out and about. Winters are mild (barely existent for those down south), and spring and autumn are over in the blink of an eye. Basically, you can get out and explore almost any time of year. And living on such a small island means quick and easy access to mountains, beaches, rivers and waterfalls from almost anywhere. <br><br>Cycling and river tracing are both extremely popular in Taiwan. Winding roads that snake through lush mountains will show you sights that can only be experienced by bike, while river tracing will lead you to breathtaking waterfalls hidden beneath the dense vegetation. Hikes can range from a gentle stroll to overnight treks that reach heights of over 3000m above sea level. Taiwan is an extremely mountainous country, so by bike or by foot, there is a plethora of trails waiting to be explored in the backyard of every city.<br><br>Getting to the beach is as easy as jumping on a train or a bus, or even your scooter if you have one. Go for a surf in FuLong, grab a fish and chips in Baishawan, hit the Spring Wave beach party in Kenting, or swim with sea turtles in Xiaoliuqiu. There is plenty of beach action to be had, and a summer long enough to try it all. <br><br>Rather keep it in the city? Grab a Ubike (Taiwan’s bike sharing platform) and go exploring for the day. There are plenty of tourist hot spots to get you started and cultural events happen frequently. Information is easily found in English online, or just follow your nose and see what you find!<br><br> Taiwan has loads to see and do, and as a Shane teacher you’ll have plenty of personal time to get out and take it all in.</p>
+        </div>
+      </div>
+      
+    </div>
+    <!--  - - - - - - - - - - - - - - - - - - - - - - - - - content end here - - - - - - - - - - - - - - - - - - - - - - - - - -->
+    <div class="container-fluid main c-map">
+      <div>
+        <div class="row justify-content-between">
+          <div class="col-12 col-md-6 col-lg-auto align-self-center">
+            <div class="c-card">
+              <a href="#"><div>Careers at shane</div></a>
+            </div>
+            <div class="c-card">
+              <a href="#"><div>What we offer</div></a>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-auto align-self-center">
+            <div class="c-card">
+              <a href="#"><div>Teaching at shane</div></a>
+            </div>
+            <div class="c-card">
+              <a href="#"><div>Locations</div></a>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-auto align-self-center">
+            <div class="c-card">
+              <a href="＃"><div>living in Taiwan</div></a>
+            </div>
+            <div class="c-card">
+              <div class="social-ico">
+                <a href="#"><div class="icon youtube"></div></a>
+                <a href="#"><div class="icon line"></div></a>
+                <a href="#"><div class="icon fb"></div></a>  
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-auto">
+            <div class="c-card">
+              <div>
+                <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FShaneEnglishShuLin%2F&tabs=timeline&width=300&height=130&small_header=false&adapt_container_width=false&hide_cover=false&show_facepile=false&appId" width="300" height="130" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid main c-footer">
+      <div>
+        <div class="row">
+          <div class="col-12 row justify-content-center">
+            <div class="col-auto split">夏恩國際教育股份有限公司 (夏恩英語)</div>
+            <div class="col-auto split">台北市中正區博愛路148號4樓</div>
+            <div class="col-auto split">(02) 2311-6000 星期一至五 10:00 ~ 18:00</div>
+            <div class="col-auto split">karen.lu@shane.com.tw</div>
+          </div>
+          <div class="col-12 row justify-content-center">
+            <div class="col-auto">Copyright © 2015</div>
+            <div class="col-auto">Shane English School Taiwan.</div>
+            <div class="col-auto">All rights reserved.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="fb-root"></div>
+    <div class="stick-card"><div></div><span>APPLY NOW!</span></div>
+
+    <!-- jquery slim is not enough for jquery ui <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script> -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>  
+    <script>
+      $( "#mobile-nav-ham" ).click(function() {
+        $( "#mobile-hidden-panel" ).toggle( 'slide',{direction: "right" },400);
+      });
+      $( "#mobile-panel-ham" ).click(function() {
+        $( "#mobile-hidden-panel" ).toggle( 'slide',{direction: "right" },400);
+      });
+    </script>
+    
+  </body>
+</html>

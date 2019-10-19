@@ -1,0 +1,338 @@
+<!doctype html>
+<html lang="zh-Hant">
+  <head>
+    <title>夏恩英語</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css">
+    <link rel="stylesheet" href="styles/home-eng.css">
+  </head>
+   <body>
+
+    <div class="container-fluid main c-header">
+      <div>
+        <div class="slogan blue-theme">Move Ahead with Shane English School</div>
+        <div class="social-ico">
+          <a href="#"><div class="icon youtube"></div></a>
+          <a href="#"><div class="icon line"></div></a>
+          <a href="#"><div class="icon fb"></div></a>  
+        </div>
+        
+      </div>
+    </div>
+
+    <div class="modal fade" id="login-modal" tabindex="-1" role="dialog" aria-labelledby="login-modal-label" aria-hidden="true">
+      <div class="modal-dialog modal-sm" role="document">
+        <div class="modal-content popup-login">
+          
+          <h1 id="login-modal-label">分校登入</h1>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+          <input type="text" class="error" placeholder="登入帳號">
+          <input type="text" placeholder="密碼">
+          <button type="button" class="btn forgot" data-toggle="modal" data-target="#forgot-pw-modal">忘記密碼？</button>
+          <button type="button" class="btn confirm">登入</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="forgot-pw-modal" tabindex="-1" role="dialog" aria-labelledby="login-modal-label" aria-hidden="true">
+      <div class="modal-dialog modal-sm" role="document">
+        <div class="modal-content popup-login">
+          
+          <h1 id="login-modal-label">忘記密碼</h1>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+          <input type="text" class="error" placeholder="信箱認證">
+          <p>不用擔心,只需要填信箱我們將會送給您重設密碼說明</p>
+          <button type="button" class="btn confirm">送出</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="reset-pw-modal" tabindex="-1" role="dialog" aria-labelledby="login-modal-label" aria-hidden="true">
+      <div class="modal-dialog modal-sm" role="document">
+        <div class="modal-content popup-login">
+          
+          <h1 id="login-modal-label">重設密碼</h1>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+          <input type="text" class="error" placeholder="新密碼">
+          <input type="text" placeholder="確認密碼">
+          <p></p>
+          <button type="button" class="btn confirm">重設</button>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="container-fluid mobile-nav mobile-only">
+      <a href="http://shane.wowfh.com/html/home.html" class="logo"></a>
+      <div class="ham blue-theme" id="mobile-nav-ham"></div>
+      <div id="mobile-hidden-panel" class="hidden-panel">
+          
+        <div>
+          <a href="#">
+            <div>
+              <span>Careers at shane</span>
+            </div>
+          </a>
+        </div>
+        <div>
+          <a href="#">
+            <div>
+              <span>What we offer</span>
+            </div>
+          </a>
+        </div>
+        <div>
+          <a href="#">
+            <div>
+              <span>Teaching at shane</span>
+            </div>
+          </a>
+        </div>
+        <div>
+          <a href="#">
+            <div>
+              <span>Locations</span>
+            </div>
+          </a>
+        </div>
+        <div>
+          <a href="#">
+            <div>
+              <span>living in Taiwan</span>
+            </div>
+          </a>
+        </div>
+        
+      </div>
+    </div>
+
+    <div class="container-fluid main c-nav pc-only blue-theme">
+      <div>
+        <a href="http://shane.wowfh.com/html/home.html" class="logo"></a>
+        <div class="menu">
+         
+          <div class="row align-items-center dropdown" aria-haspopup="true" aria-expanded="false">
+            <div class="mark"></div>
+            <div class="col"><a href="#">Careers at shane</a></div>
+          </div>
+
+          <div class="row align-items-center dropdown" aria-haspopup="true" aria-expanded="false">
+            <div class="mark"></div>
+            <div class="col"><a href="#">What we offer</a></div>
+          </div>
+
+          <div class="row align-items-center dropdown" aria-haspopup="true" aria-expanded="false">
+            <div class="mark"></div>
+            <div class="col"><a href="#">Teaching at shane</a></div>
+          </div>
+
+          <div class="row align-items-center dropdown" aria-haspopup="true" aria-expanded="false">
+            <div class="mark"></div>
+            <div class="col"><a href="#">Locations</a></div>
+          </div>
+
+          <div class="row align-items-center dropdown" aria-haspopup="true" aria-expanded="false">
+            <div class="mark"></div>
+            <div class="col"><a href="#">living in Taiwan</a></div>
+          </div>
+         
+        </div>  
+      </div>
+    </div>
+    <!-- - - - - - - - - - - - - - - - - - - - - - - - - - banner start here - - - - - - - - - - - - - - - - - - - - - - - - - -->
+    <div class="row page-banner">
+      <img src="images/location/banner01.jpg">
+      <div class="col align-self-center"> 
+        <h1>Locations</h1>
+        <p>HOME / Locations</p>
+      </div>
+    </div>
+    <!--  - - - - - - - - - - - - - - - - - - - - - - - - - banner end here - - - - - - - - - - - - - - - - - - - - - - - - - -->
+    <!-- - - - - - - - - - - - - - - - - - - - - - - - - - content start here - - - - - - - - - - - - - - - - - - - - - - - - - -->
+    <div class="en-content">
+
+      <div class="row type-1">
+        <div class="col-12">
+          <div class="heading-line"></div><br>
+          <h1>Teach in Taipei City </h1>
+          <p>Taipei City is the capital of Taiwan and it acts the part. As a bustling, almost frantic city it is every inch a world-class city. <br><br>Geographically small, Taipei City tends to grow upwards into high-rise apartment complexes and glittering skyscrapers. A ring of mountains bordering the city means you're never far from an amazing hike, even at the base of the iconic Taipei 101. Several rivers snake through the city, cutting up the sprawl and adding some open green spaces along the riverbanks.<br><br>Taipei's character is a careful balancing act of the old and the new. On one side, you have the historic Wanhua District's temples and markets or Muzha's hillside tea plantations. But a few minutes on the Mass Rapid Transit (MRT) and you could be in the glittering financial and shopping district of Xinyi or jostling for a spot in the entertainment area of Ximending.<br><br>Wherever you are, you'll never be at a loss for something to do. Food, shopping, and entertainment is available morning, noon, and night. Early mornings expect to find the elderly practicing tai chi or ballroom dancing in the parks. Lunchtime is often the time for some delicious food and a nap if you're lucky. Then evenings provide the city with night markets, international restaurants, and an exhilarating nightlife scene. <br><br>But Taipei deserves a significant caveat: you get what you pay for. It is by far the most expensive city on the island to live. Everything - from rent to basic necessities to entertainment - costs a big-city premium. And teaching salaries are roughly the same as anywhere else in Taiwan. The job market is just that much more competitive. So for the big city experience - but small city savings - you may want to consider nearby New Taipei City or Taoyuan.</p>
+        </div>
+      </div>
+      
+      <div class="row type-4">
+        <div class="col-12">
+          <img src="images/location/banner02.jpg" class="bg">
+        </div>
+      </div>
+
+       <div class="row type-1">
+        <div class="col-12">
+          <div class="heading-line"></div><br>
+          <h1>Teach in New Taipei City</h1>
+          <p>Get old-school in New Taipei City. Don't let the name fool you. New Taipei City is where an authentic Taiwan experience starts. Eat traditional food. Visit original temples. Meet Taiwanese people who have been living in the same community since Taiwan began. And enjoy every second of it.<br><br>Now Taiwan's largest city, New Taipei City is the merger of Taipei's satellite cities. So you could live among the misty mountains of the southern Xindian District, get access to coastal breezes in the northern Tamsui District, or even live in Yonghe District to experience the most densely populated place on Earth (if that's your thing). 
+          <br><br>But no matter where you live, you get all the advantages of living in Taiwan's thriving capital at a fraction of the cost. Stay connected to all the comings and going of the Taipei scene through the cities' beautifully connected Mass Rapid Transit (MRT) and bus lines. And then return home to your wonderful and cheap apartment just outside city limits. By adding just a few minutes onto your commute, you can exponentially improve your experience living and teaching abroad in Taiwan.</p>
+        </div>
+      </div>
+      
+      <div class="row type-4">
+        <div class="col-12">
+          <img src="images/location/banner03.jpg" class="bg">
+        </div>
+      </div>
+
+
+       <div class="row type-1">
+        <div class="col-12">
+          <div class="heading-line"></div><br>
+          <h1>Teach in Taoyuan</h1>
+          <p>Teaching in Taoyuan is your gateway to Asia. The city provides its residents with an ideal mix of nature and convenience, as well as a relaxed pace of life with easy access to the more exuberant cities of Taiwan.<br><br>Taoyuan is ideally placed for travel enthusiasts. It has easy access to Taiwan's largest international airport, making even weekend trips to the likes of Hong Kong and Okinawa a breeze. It is also located along Taiwan's High-Speed Rail (HSR) which opens up the rest of the island for day trips and weekend getaways. And with the newest addition to the Mass Rapid Transit (MRT) system, Taoyuan has a direct connection to Taipei City and New Taipei City with just a short commute.<br><br>But Taoyuan itself gives expats plenty of reasons to stay. It has one of the most diverse populations of any city in Taiwan, with a mix of both Westerners and Asians from abroad. It's also not as densely packed as Taipei, with lots of access to wide-open places, hiking, and some lovely beaches like Kuan-yin and Chu-wei just outside the city. Plus, the cost of living is far lower than other major cities, leaving more money in the coffers for spontaneous trips around the region.</p>
+        </div>
+      </div>
+      
+      <div class="row type-4">
+        <div class="col-12">
+          <img src="images/location/banner04.jpg" class="bg">
+        </div>
+      </div>
+
+
+       <div class="row type-1">
+        <div class="col-12">
+          <div class="heading-line"></div><br>
+          <h1>Teach in Hsinchu</h1>
+          <p>Hsinchu is just off the beaten track, but well worth the detour. Located in the northwest of Taiwan, Hsinchu is a more laid-back Taiwan experience. It's a smaller city with fewer highrises than most other Taiwanese cities (which also means lots of open green spaces). But the city is seeing a rise in prominence thanks to the High-Speed Rail (HSR) putting the city firmly inside Taipei's commuter belt, and the ever-expanding tech industry that brings the commuters to the city.<br><br>Like many of Taiwan's cities, Hsinchu has two opposite yet complementary characters. On the traditional side, it is home to the largest population of two indiginous tribes, the Hakka and the Atayal. But on the modern side, however, Hsinchu (known as the Silicon Valley of Taiwan) is a regional tech powerhouse and home to the offices of some of the worlds biggest tech brands. While some parts of the city may seem very traditional, others can be quite affluent. Zhubei, the neighborhood closest to the High Speed Rail (HSR) is made up almost entirely of modern apartments. With this comes a variety of upper class restaurants catering to those employed in the tech hub of Taiwan.<br><br>Given that Hsinchu is still growing, it is home to lots of great natural spaces both inside city limits and just outside. The extra space also allows for attractions like the Leofoo Village theme park, an eco-park, and golf courses. And if you ever need a break from the relaxed pace of Hsinchu, Taipei and all its frenetic energy are under an hour away on the HSR. Then when you're ready, escape back to your affordable home in the relative peace and quiet of Hsinchu.</p>
+        </div>
+      </div>
+      
+      <div class="row type-4">
+        <div class="col-12">
+          <img src="images/location/banner05.jpg" class="bg">
+        </div>
+      </div>
+
+
+       <div class="row type-1">
+        <div class="col-12">
+          <div class="heading-line"></div><br>
+          <h1>Teach in Taichung</h1>
+          <p>Taichung is at the literal and metaphorical centre of Taiwan's cultural identity. Located in central Taiwan, Taichung and its satellite cities are quintessentially Taiwanese. Reportedly the birthplace of boba tea, Taichung is a culinary scene unlike any other with a vast array of traditional Taiwanese delicacies. The people are friendly, the weather is mild, and the cultural scene is outstanding.  <br><br>Often called the California of Taiwan, Taichung boasts incredible weather for virtually anyone. Drier than northern Taiwan's cities, but not as baking hot as the south, central Taiwan strikes just the right balance. And being a little west of centre means that the city is shielded from Pacific storms and rains by Taiwan's eastern ridge of mountains.<br><br>And while Taichung boasts some truly amazing historical sites and museums, it is itself a living piece of history. The area is dotted with temples new and old sprinkled throughout the city and the rolling foothills and mountains that surround it. And if the city ever presses down on you, there are lots of wide-open spaces, hikes, and even the picturesque Sun Moon Lake within easy access. <br><br>With a large yet tightly-knit expat community, and the first Mass Rapid Transit (MRT) line set to open in 2020, Taichung could very easily become your home away from home.</p>
+        </div>
+      </div>
+      
+      <div class="row type-4">
+        <div class="col-12">
+          <img src="images/location/banner06.jpg" class="bg">
+        </div>
+      </div>
+
+      <div class="row type-1">
+        <div class="col-12">
+          <div class="heading-line"></div><br>
+          <h1>Teach in Tainan</h1>
+          <p>It's time for something different in Tainan. This southern city offers expats an intensely Taiwanese experience like no other. Experience an abundance of traditional foods, incredible historic sites, and more sun than just about anywhere else on the island. Skip the stress of the big city and really ease into your daily life. <br><br>Tainan is one of Taiwan's lesser-known cities, but other expats' loss is your gain. It may not have the wild energy of Taipei City, but it's the perfect place to enjoy the natural splendour of Taiwan and dive deep into the island nation's varied history and traditional culture. And it's the perfect place to explore your own creative side in peace.<br><br>And while Tainan may have a more laid back vibe, it's still a modern Taiwanese city with all the conveniences and amenities one can expect from any other metropolis. There is a small but active expat community and access to all the convenience, entertainment, and opportunities at a tiny fraction of the cost in other cities. </p>
+        </div>
+      </div>
+
+      <div class="row type-4">
+        <div class="col-12">
+          <img src="images/location/banner07.jpg" class="bg">
+        </div>
+      </div>
+
+      <div class="row type-1">
+        <div class="col-12">
+          <div class="heading-line"></div><br>
+          <h1>Teach in Kaohsiung</h1>
+          <p>Enjoy big-city living at half speed in Kaohsiung. In population, Kaohsiung actually surpasses Taipei City, but it's far less dense. And being in southern Taiwan means that Kaohsiung enjoys more sun year-round than many northern cities, less rain, and a more tropical climate. This is made all the better by the fact that Kaohsiung is a thriving port city with some of the most accessible beaches on the island.<br><br>Highlights of living in Kaohsiung include easy access to sandy beaches and sun-dappled mountain getaways. It's only an hour or two out from the resort towns of the south coast such as Kenting and Jialeshuei. And the city is a seafood lover's dream with some of the freshest (and cheapest) bounty of the sea you can imagine.  <br><br>But the people of Kaohsiung really make it magical. Southern Taiwan is often considered more "authentically" Taiwanese, so you'll experience the warmth and friendliness at its absolute best. There's also a vibrant expat community and lots to see and do no matter your taste, which may have a lot to do with why many expats often stay longer in Kaohsiung than any other city.</p>
+        </div>
+      </div>
+      
+    </div>
+    <!--  - - - - - - - - - - - - - - - - - - - - - - - - - content end here - - - - - - - - - - - - - - - - - - - - - - - - - -->
+    <div class="container-fluid main c-map">
+      <div>
+        <div class="row justify-content-between">
+          <div class="col-12 col-md-6 col-lg-auto align-self-center">
+            <div class="c-card">
+              <a href="#"><div>Careers at shane</div></a>
+            </div>
+            <div class="c-card">
+              <a href="#"><div>What we offer</div></a>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-auto align-self-center">
+            <div class="c-card">
+              <a href="#"><div>Teaching at shane</div></a>
+            </div>
+            <div class="c-card">
+              <a href="#"><div>Locations</div></a>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-auto align-self-center">
+            <div class="c-card">
+              <a href="＃"><div>living in Taiwan</div></a>
+            </div>
+            <div class="c-card">
+              <div class="social-ico">
+                <a href="#"><div class="icon youtube"></div></a>
+                <a href="#"><div class="icon line"></div></a>
+                <a href="#"><div class="icon fb"></div></a>  
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-auto">
+            <div class="c-card">
+              <div>
+                <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FShaneEnglishShuLin%2F&tabs=timeline&width=300&height=130&small_header=false&adapt_container_width=false&hide_cover=false&show_facepile=false&appId" width="300" height="130" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid main c-footer">
+      <div>
+        <div class="row">
+          <div class="col-12 row justify-content-center">
+            <div class="col-auto split">夏恩國際教育股份有限公司 (夏恩英語)</div>
+            <div class="col-auto split">台北市中正區博愛路148號4樓</div>
+            <div class="col-auto split">(02) 2311-6000 星期一至五 10:00 ~ 18:00</div>
+            <div class="col-auto split">karen.lu@shane.com.tw</div>
+          </div>
+          <div class="col-12 row justify-content-center">
+            <div class="col-auto">Copyright © 2015</div>
+            <div class="col-auto">Shane English School Taiwan.</div>
+            <div class="col-auto">All rights reserved.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="fb-root"></div>
+    <div class="stick-card"><div></div><span>APPLY NOW!</span></div>
+
+    <!-- jquery slim is not enough for jquery ui <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script> -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>  
+    <script>
+      $( "#mobile-nav-ham" ).click(function() {
+        $( "#mobile-hidden-panel" ).toggle( 'slide',{direction: "right" },400);
+      });
+      $( "#mobile-panel-ham" ).click(function() {
+        $( "#mobile-hidden-panel" ).toggle( 'slide',{direction: "right" },400);
+      });
+    </script>
+    
+  </body>
+</html>
