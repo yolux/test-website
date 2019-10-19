@@ -2122,8 +2122,9 @@ background-color: #ad0a29;
 }
 
 .pm-main-div {
-  width: calc(90% - 220px);
-  margin-left: 20px;
+  /*width: calc(90% - 220px);*/
+  width: 100%;
+  /*margin-left: 20px;*/
   margin-bottom: 60px;  
   display: inline-block;
 }
