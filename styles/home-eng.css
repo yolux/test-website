@@ -1,0 +1,130 @@
+@import "common.css";
+
+/* = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = */
+/* c-banner : (上面 banner)  */
+/* = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = */
+.carousel .carousel-caption{
+  color: #DB143A;
+  top: 25%;
+  bottom: unset;
+  height: 400px;
+  font-size: 4.5px;
+}
+
+.carousel .carousel-caption h1{
+  font-size: 5em;
+  letter-spacing: 1px;
+  margin-bottom: .2em;
+}
+.carousel .carousel-caption h2{
+  font-size: 2.8em;
+  letter-spacing: 3px;
+  font-weight: 100;
+  margin-bottom: 2.2em;
+}
+.carousel .carousel-caption a.a-btn {
+  background-color: #DB143A;
+  color: white;
+  padding: .8em 2.5em;
+  font-size: 1.5em;
+  border: none;
+}
+
+.carousel .carousel-inner .carousel-item:before {
+  box-shadow: inset 0px 3px 11px -2px rgba(0,0,0,0.75);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: "";
+}
+.carousel-control-prev-icon {
+  background-image: url("../images/banner_arr1.svg");
+  width: 40px;
+  height: 40px;
+}
+.carousel-control-next-icon {
+  background-image: url("../images/banner_arr2.svg");
+  width: 40px;
+  height: 40px;
+}
+.carousel .carousel-inner .carousel-item {
+  height: 300px;
+}
+.carousel .carousel-inner .carousel-item img {
+  height: 100%;
+  width: auto;
+}
+
+@media (min-width: 700px) {
+  .carousel .carousel-caption{
+    font-size: 1vw;
+  }
+  .carousel .carousel-inner .carousel-item {
+    height: 100%;
+  }
+  .carousel .carousel-inner .carousel-item img {
+    height: auto;
+    width: 100%;
+  }
+
+}
+/* = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = */
+/* = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = */
+.c-map .row {
+  margin: 30px 0 40px 0;
+}
+.c-map .c-card {
+  margin: 1em 0 1em 0;
+}
+.c-map .c-card div {
+  min-height: 2.5em;
+  line-height: 2em;
+}
+.c-map .c-card div.social-ico {
+  min-height: 0;
+}
+.c-map .icon{
+  width: 36px;
+  height: 36px;
+  vertical-align: middle;
+  display: inline-block;
+  background-size: contain;
+  margin: 0 2px;
+}
+.c-map .fb {background-image: url("../images/FB.svg");}
+.c-map .youtube {background-image: url("../images/youtube.svg");}
+.c-map .line {background-image: url("../images/line.svg");}
+.c-map .user {background-image: url("../images/login_icon.png");}
+/* = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = */
+/* = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = */
+.stick-card {
+  position: fixed;
+  right: 0;
+  top: 150px;
+  z-index: 100;
+  background-color: #DB143A;
+  padding: 5px 5px 10px 5px;
+  width: 80px;
+}
+.stick-card >span {
+  color: white;
+  font-size: 1.2rem;
+  text-align: center;
+  display: inline-block;
+}
+.stick-card >div{
+  width: 50px;
+  height: 50px;
+  padding: 0;
+  margin: 8px 10px;
+  display: block;
+  background-image: url("../images/home-eng/stick-div-icon.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-position: center;
+  
+}
+/* = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = */

@@ -1,0 +1,557 @@
+<!doctype html>
+<html lang="zh-Hant">
+  <head>
+    <title>夏恩英語</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css">
+    <link rel="stylesheet" href="styles/home-eng.css">
+  </head>
+   <body>
+
+    <div class="container-fluid main c-header">
+      <div>
+        <div class="slogan blue-theme">Move Ahead with Shane English School</div>
+        <div class="social-ico">
+          <a href="#"><div class="icon youtube"></div></a>
+          <a href="#"><div class="icon line"></div></a>
+          <a href="#"><div class="icon fb"></div></a>  
+        </div>
+        
+      </div>
+    </div>
+
+    <div class="modal fade" id="login-modal" tabindex="-1" role="dialog" aria-labelledby="login-modal-label" aria-hidden="true">
+      <div class="modal-dialog modal-sm" role="document">
+        <div class="modal-content popup-login">
+          
+          <h1 id="login-modal-label">分校登入</h1>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+          <input type="text" class="error" placeholder="登入帳號">
+          <input type="text" placeholder="密碼">
+          <button type="button" class="btn forgot" data-toggle="modal" data-target="#forgot-pw-modal">忘記密碼？</button>
+          <button type="button" class="btn confirm">登入</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="forgot-pw-modal" tabindex="-1" role="dialog" aria-labelledby="login-modal-label" aria-hidden="true">
+      <div class="modal-dialog modal-sm" role="document">
+        <div class="modal-content popup-login">
+          
+          <h1 id="login-modal-label">忘記密碼</h1>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+          <input type="text" class="error" placeholder="信箱認證">
+          <p>不用擔心,只需要填信箱我們將會送給您重設密碼說明</p>
+          <button type="button" class="btn confirm">送出</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="reset-pw-modal" tabindex="-1" role="dialog" aria-labelledby="login-modal-label" aria-hidden="true">
+      <div class="modal-dialog modal-sm" role="document">
+        <div class="modal-content popup-login">
+          
+          <h1 id="login-modal-label">重設密碼</h1>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+          <input type="text" class="error" placeholder="新密碼">
+          <input type="text" placeholder="確認密碼">
+          <p></p>
+          <button type="button" class="btn confirm">重設</button>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="container-fluid mobile-nav mobile-only">
+      <a href="http://shane.wowfh.com/html/home.html" class="logo"></a>
+      <div class="ham blue-theme" id="mobile-nav-ham"></div>
+      <div id="mobile-hidden-panel" class="hidden-panel">
+          
+        <div>
+          <a href="#">
+            <div>
+              <span>Careers at shane</span>
+            </div>
+          </a>
+        </div>
+
+        <div>
+          <a href="">
+            <div id="clp-header-3">
+              <span>What we offer</span>
+            </div>
+          </a>
+          <button class="collapsed" type="button" data-toggle="collapse" data-target="#clp-col-3" aria-expanded="true" aria-controls="clp-col-3" style="top:0;"> ▼ </button>
+          <div id="clp-col-3" class="collapse" aria-labelledby="clp-header-3" data-parent="#mobile-hidden-panel">
+            <a href="orientation_and_support.html"><div><span>Orientation and support</span></div></a>
+            <a href="http://shane.wowfh.com/html/class.html"><div><span>Teacher Training</span></div></a>
+          </div>
+        </div>
+        <div>
+          <a href="#">
+            <div id="clp-header-4">
+              <span>Teaching at shane</span>
+            </div>
+          </a>
+          <button class="collapsed" type="button" data-toggle="collapse" data-target="#clp-col-4" aria-expanded="true" aria-controls="clp-col-4" style="top:0;"> ▼ </button>
+          <div id="clp-col-4" class="collapse" aria-labelledby="clp-header-4" data-parent="#mobile-hidden-panel">
+            <a href="salary_and_benefits.html"><div><span>Salary and Benefits</span></div></a>
+            <a href="#"><div><span>Job description</span></div></a>
+          </div>
+        </div>
+        <div>
+          <a href="#">
+            <div id="clp-header-5">
+              <span>Locations</span>
+            </div>
+          </a>
+          <button class="collapsed" type="button" data-toggle="collapse" data-target="#clp-col-5" aria-expanded="true" aria-controls="clp-col-5" style="top:0;"> ▼ </button>
+          <div id="clp-col-5" class="collapse" aria-labelledby="clp-header-5" data-parent="#mobile-hidden-panel">
+            <a href="locations.html#titc"><div><span>Teach in Taipei City</span></div></a>
+            <a href="locations.html#tintc"><div><span>Teach in New Taipei City</span></div></a>
+            <a href="locations.html#tity"><div><span>Teach in Taoyuan</span></div></a>
+            <a href="locations.html#tihc"><div><span>Teach in Hsinchu</span></div></a>
+            <a href="locations.html#titc"><div><span>Teach in Taichung</span></div></a>
+            <a href="locations.html#titn"><div><span>Teach in Tainan</span></div></a>
+            <a href="locations.html#tikh"><div><span>Teach in Kaohsiung</span></div></a>
+          </div>
+        </div>
+        <div>
+          <a href="#">
+            <div>
+              <span>living in Taiwan</span>
+            </div>
+          </a>
+        </div>
+        
+      </div>
+    </div>
+
+    <div class="container-fluid main c-nav pc-only blue-theme">
+      <div>
+        <a href="http://shane.wowfh.com/html/home.html" class="logo"></a>
+        <div class="menu">
+         
+          <div class="row align-items-center dropdown" aria-haspopup="true" aria-expanded="false">
+            <div class="mark"></div>
+            <div class="col"><a href="home-eng.html">Careers at shane</a></div>
+          </div>
+
+          <div class="row align-items-center dropdown" aria-haspopup="true" aria-expanded="false">
+            <div class="mark"></div>
+            <div class="col"><a>What we offer</a></div>
+            <div class="dropdown-menu dropdown-menu-center">
+              <a class="dropdown-item" href="orientation_and_support.html">Orientation and support</a>
+              <a class="dropdown-item" href="#">Teacher Training</a>
+            </div>
+          </div>
+
+          <div class="row align-items-center dropdown" aria-haspopup="true" aria-expanded="false">
+            <div class="mark"></div>
+            <div class="col"><a>Teaching at shane</a></div>
+            <div class="dropdown-menu dropdown-menu-center">
+              <a class="dropdown-item" href="salary_and_benefits.html">Salary and Benefits</a>
+              <a class="dropdown-item" href="#">Job description</a>
+            </div>
+          </div>
+
+          <div class="row align-items-center dropdown" aria-haspopup="true" aria-expanded="false">
+            <div class="mark"></div>
+            <div class="col"><a href="locations.html">Locations</a></div>
+            <div class="dropdown-menu dropdown-menu-center">
+              <a class="dropdown-item" href="locations.html#titc">Teach in Taipei City</a>
+              <a class="dropdown-item" href="locations.html#tintc">Teach in New Taipei City</a>
+              <a class="dropdown-item" href="locations.html#tity">Teach in Taoyuan</a>
+              <a class="dropdown-item" href="locations.html#tihc">Teach in Hsinchu</a>
+              <a class="dropdown-item" href="locations.html#titc">Teach in Taichung</a>
+              <a class="dropdown-item" href="locations.html#titn">Teach in Tainan</a>
+              <a class="dropdown-item" href="locations.html#tikh">Teach in Kaohsiung</a>
+            </div>
+          </div>
+
+          <div class="row align-items-center dropdown" aria-haspopup="true" aria-expanded="false">
+            <div class="mark"></div>
+            <div class="col"><a href="living_in_taiwan.html">living in Taiwan</a></div>
+          </div>
+         
+        </div>  
+      </div>
+    </div>
+    <!-- - - - - - - - - - - - - - - - - - - - - - - - - - banner start here - - - - - - - - - - - - - - - - - - - - - - - - - -->
+    <div class="row page-banner">
+      <img src="images/home-eng/bg01.jpg">
+      <div class="col align-self-center"> 
+        <h1>Apply now</h1>
+        <p>HOME / Apply now</p>
+      </div>
+    </div>
+    <!--  - - - - - - - - - - - - - - - - - - - - - - - - - banner end here - - - - - - - - - - - - - - - - - - - - - - - - - -->
+    <!-- - - - - - - - - - - - - - - - - - - - - - - - - - content start here - - - - - - - - - - - - - - - - - - - - - - - - - -->
+    <div class="en-form">
+      <div class="c-form">
+        <div class="row">
+
+          <!-- part 1 -->
+
+          <div class="col-12">
+            <div class="heading-line"></div>
+            <h1>Personal Details</h1>
+          </div>
+          <div class="col-12 col-sm-6">
+            <input type="text" placeholder="First Name*">
+          </div>
+          <div class="col-12 col-sm-6">
+            <input type="text" placeholder="Last Name*">
+          </div>
+          <div class="col-12">
+            <input type="text" placeholder="Please enter your email address*">
+            <label class="c-select">
+              <select class="custom-select" required>
+                <option disabled selected value="">Please select the country you are the passport holder of*</option>
+                <option>option1</option>
+              </select>
+            </label>
+            <label class="c-select">
+              <select class="custom-select" required>
+                <option disabled selected value="">Please select the country you are currently living in*</option>
+                <option>option1</option>
+              </select>
+            </label>
+            <label class="c-select">
+              <select class="custom-select" required>
+                <option disabled selected value="">Immediately</option>
+                <option>option1</option>
+              </select>
+            </label>
+            
+          </div>
+          <div class="col-12">
+            <hr>
+          </div>
+
+          <!-- part 2 -->
+
+          <div class="col-12">
+            <div class="heading-line"></div>
+            <h1>Qualifications</h1>
+          </div>
+          <div class="col-12 c-radio-group">
+            <p class="require">Do you have a university degree?</p>
+            <label class="c-radio">
+              <input type="radio" name="q21" checked/>Yes<div></div>
+            </label>
+            <label class="c-radio">
+              <input type="radio" name="q21"/>No<div></div>
+            </label>
+            <label class="c-radio">
+              <input type="radio" name="q21"/>In progress<div></div>
+            </label>
+          </div>
+          <div class="col-12 c-radio-group">
+            <p class="require">Please select course type</p>
+            <label class="c-checkbox">
+              <input type="checkbox"><div></div>On campus
+            </label>
+            <label class="c-checkbox">
+              <input type="checkbox"><div></div>Online / Distance / Correspondence
+            </label>
+            <label class="c-checkbox">
+              <input type="checkbox"><div></div>Combined
+            </label>
+          </div>
+          <div class="col-12">
+            <p class="require">What's the highest level of education you have completed?</p>
+            <label class="c-select">
+              <select class="custom-select" required>
+                <option disabled selected value="">Please select</option>
+                <option>option1</option>
+              </select>
+            </label>
+            <p class="require">University name</p>
+            <input type="text" placeholder="Please write the name of the university">
+          </div>
+          <div class="col-12 c-radio-group">
+            <p class="require">Do you have a teaching / TEFL qualification?</p>
+            <label class="c-radio">
+              <input type="radio" name="q24" checked/>Yes<div></div>
+            </label>
+            <label class="c-radio">
+              <input type="radio" name="q24"/>No<div></div>
+            </label>
+            <label class="c-radio">
+              <input type="radio" name="q24"/>In progress<div></div>
+            </label>
+          </div>
+          <div class="col-12">
+            <label class="c-checkbox">
+              <input type="checkbox"><div></div>Online TEFL
+            </label>
+            <label class="c-checkbox">
+              <input type="checkbox"><div></div>In-Class TEFL
+            </label>
+            <label class="c-checkbox">
+              <input type="checkbox"><div></div>Combined Online / In-Class TEFL
+            </label>
+            <label class="c-checkbox">
+              <input type="checkbox"><div></div>CELTA / CertESOL
+            </label>
+            <label class="c-checkbox">
+              <input type="checkbox"><div></div>DELTA / DipTESOL
+            </label>
+            <label class="c-checkbox">
+              <input type="checkbox"><div></div>PGCE / Teaching License
+            </label>
+            <div class="dummy-1em"></div>
+            <p class="require">When will you complete the teaching / TEFL qualification?</p>
+            <input type="text" placeholder="(e.g., US Substitute Teaching License / 100-hour Oxford Seminars TEFL)">
+            <p class="require">When will you complete the teaching / TEFL qualification?</p>
+            <input type="text" placeholder="Please select date">
+          </div>
+          <div class="col-12">
+            <hr>
+          </div>
+
+          <!-- part 3 -->
+
+          <div class="col-12">
+            <div class="heading-line"></div>
+            <h1>Additional Information</h1>
+          </div>
+          <div class="col-12 c-radio-group">
+            <p class="require">Do you have a criminal record?</p>
+            <label class="c-radio">
+              <input type="radio" name="q31" checked/>Yes<div></div>
+            </label>
+            <label class="c-radio">
+              <input type="radio" name="q31"/>No<div></div>
+            </label>
+          </div>
+          <div class="col-12">
+            <p class="require">Please provide details of your criminal conviction(s)</p>
+            <input type="text" placeholder="Please select date">
+          </div>
+          <div class="col-12">
+            <p class="require">Are you applying with a friend of partner?</p>
+            <label class="c-select">
+              <select class="custom-select" required>
+                <option disabled selected value="">Please select</option>
+                <option>option1</option>
+              </select>
+            </label>
+          </div>
+          <div class="col-12">
+            <p class="require">Please write their full name</p>
+            <input type="text" placeholder="Please write their full name">
+            <p class="note">Please note: they will have to complete a separate application. We are only able to sponsor residency and work permits for direct employees. We are unable to offer sponsorship for non-employee</p>
+            <div class="dummy-1em"></div>
+          </div>
+          <div class="col-12 c-radio-group">
+            <p class="require">Where did you hear about us?</p>
+            <label class="c-radio">
+              <input type="radio" name="q33"/>Search Engine, e.g.,<div></div>
+            </label>
+            <label class="c-radio">
+              <input type="radio" name="q33"/>Word-of-Mouth<div></div>
+            </label>
+            <label class="c-radio">
+              <input type="radio" name="q33"/>TEFL Blog / Website<div></div>
+            </label>
+            <label class="c-radio">
+              <input type="radio" name="q33"/>Social Media<div></div>
+            </label>
+            <label class="c-radio">
+              <input type="radio" name="q33"/>University<div></div>
+            </label>
+            <label class="c-radio">
+              <input type="radio" name="q33"/>TEFL course<div></div>
+            </label>
+            <label class="c-radio">
+              <input type="radio" name="q33"/>Teacher Referral<div></div>
+            </label>
+          </div>
+          <div class="col-12">
+            <p class="require">Please check:</p>
+            <label class="c-checkbox">
+              <input type="checkbox"><div></div>Tealit
+            </label>
+            <label class="c-checkbox">
+              <input type="checkbox"><div></div>Dave's ESL Cafe
+            </label>
+            <label class="c-checkbox">
+              <input type="checkbox"><div></div>TEFL.com
+            </label>
+            <label class="c-checkbox">
+              <input type="checkbox"><div></div>Forumosa
+            </label>
+            <label class="c-checkbox">
+              <input type="checkbox"><div></div>OTHER
+            </label>
+            <div class="dummy-1em"></div>
+          </div>
+          <div class="col-12">
+            <p class="require">Please check:</p>
+            <label class="c-checkbox">
+              <input type="checkbox"><div></div>Facebook
+            </label>
+            <label class="c-checkbox">
+              <input type="checkbox"><div></div>LinkedIn
+            </label>
+            <label class="c-checkbox">
+              <input type="checkbox"><div></div>Twitter
+            </label>
+            <label class="c-checkbox">
+              <input type="checkbox"><div></div>INstagram
+            </label>
+            <label class="c-checkbox">
+              <input type="checkbox"><div></div>OTHER
+            </label>
+            <div class="dummy-1em"></div>
+          </div>
+          <div class="col-12">
+            <p class="require">Please write:</p>
+            <input type="text" placeholder="Please write their full name.">
+          </div>
+          <div class="col-12">
+            <p class="require">Please write:</p>
+            <input type="text" placeholder="Please write their full name.">
+          </div>
+          <div class="col-12">
+            <hr>
+          </div>
+
+          <!-- part 4 -->
+
+          <div class="col-12">
+            <div class="heading-line"></div>
+            <h1>Supporting Documentation</h1>
+          </div>
+          <div class="col-12">
+            <p class="require">Upload CV / Resume</p>
+            <div class="c-upload-box">
+              <p>Drop files here or</p>
+              <button>Select files</button>
+            </div>
+            <p class="note">Accepted file types: doc, docx, rtf, pdf.</p>
+            <div class="dummy-1em"></div>
+            <p>Tell us more about you, e.g., write a cover letter / self-introduction here (optional)</p>
+            <textarea placeholder="(500 words max"></textarea>
+            <p>Show us more about you, e.g., provide a link to your video intro / blog / website (optional)</p>
+            <input type="text" placeholder="Please provide the link to your video">
+          </div>
+          <div class="col-12">
+            <hr>
+          </div>
+
+          <!-- part 5 -->
+          <div class="col-12">
+            <p class="require">NB: Please note, we are only able to respond to applications from those who meet our requirements.<br>Please check this box to confirm that you understand the above</p>
+            <label class="c-checkbox">
+              <input type="checkbox"><div></div>I understand
+            </label>
+            <input type="submit" class="btn submit" value="Save and Continue Later">
+          </div>
+        </div>
+        
+      </div>
+      
+    </div>
+    <!--  - - - - - - - - - - - - - - - - - - - - - - - - - content end here - - - - - - - - - - - - - - - - - - - - - - - - - -->
+    <div class="container-fluid main c-map">
+      <div>
+        <div class="row justify-content-between align-items-start">
+          <div class="col-12 col-md-6 col-lg-auto">
+            <div class="c-card">
+              <a href="#"><div>Careers at shane</div></a>
+            </div>
+            <div class="c-card">
+              <a href="#"><div>What we offer</div></a>
+              <div class="sub-map">
+                <a href="#"><div>Orientation and support</div></a>
+                <a href="#"><div>Teacher Training</div></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-auto">
+            <div class="c-card">
+              <a href="#"><div>Teaching at shane</div></a>
+              <div class="sub-map">
+                <a href="#"><div>Salary and Benefits</div></a>
+                <a href="#"><div>Job description</div></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-auto">
+            <div class="c-card">
+              <a href="#"><div>Locations</div></a>
+              <div class="sub-map">
+                <a href="locations.html#titc"><div>Teach in Taipei City</div></a>
+                <a href="locations.html#tintc"><div>Teach in New Taipei City</div></a>
+                <a href="locations.html#tity"><div>Teach in Taoyuan</div></a>
+                <a href="locations.html#tihc"><div>Teach in Hsinchu</div></a>
+                <a href="locations.html#titc"><div>Teach in Taichung</div></a>
+                <a href="locations.html#titn"><div>Teach in Tainan</div></a>
+                <a href="locations.html#tikh"><div>Teach in Kaohsiung</div></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-auto">
+            <div class="c-card">
+              <a href="＃"><div>living in Taiwan</div></a>
+            </div>
+            <div class="c-card">
+              <div class="social-ico">
+                <a href="#"><div class="icon youtube"></div></a>
+                <a href="#"><div class="icon line"></div></a>
+                <a href="#"><div class="icon fb"></div></a>  
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid main c-footer">
+      <div>
+        <div class="row">
+          <div class="col-12 row justify-content-center">
+            <div class="col-auto split">夏恩國際教育股份有限公司 (夏恩英語)</div>
+            <div class="col-auto split">台北市中正區博愛路148號4樓</div>
+            <div class="col-auto split">(02) 2311-6000 星期一至五 10:00 ~ 18:00</div>
+            <div class="col-auto split">karen.lu@shane.com.tw</div>
+          </div>
+          <div class="col-12 row justify-content-center">
+            <div class="col-auto">Copyright © 2015</div>
+            <div class="col-auto">Shane English School Taiwan.</div>
+            <div class="col-auto">All rights reserved.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="fb-root"></div>
+    <div class="stick-card"><div></div><span>APPLY NOW!</span></div>
+
+    <!-- jquery slim is not enough for jquery ui <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script> -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>  
+    <script>
+      $( "#mobile-nav-ham" ).click(function() {
+        $( "#mobile-hidden-panel" ).toggle( 'slide',{direction: "right" },400);
+      });
+      $( "#mobile-panel-ham" ).click(function() {
+        $( "#mobile-hidden-panel" ).toggle( 'slide',{direction: "right" },400);
+      });
+    </script>
+    
+  </body>
+</html>
