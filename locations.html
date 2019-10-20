@@ -83,26 +83,47 @@
             </div>
           </a>
         </div>
+
         <div>
-          <a href="#">
-            <div>
+          <a href="">
+            <div id="clp-header-3">
               <span>What we offer</span>
             </div>
           </a>
+          <button class="collapsed" type="button" data-toggle="collapse" data-target="#clp-col-3" aria-expanded="true" aria-controls="clp-col-3" style="top:0;"> ▼ </button>
+          <div id="clp-col-3" class="collapse" aria-labelledby="clp-header-3" data-parent="#mobile-hidden-panel">
+            <a href="orientation_and_support.html"><div><span>Orientation and support</span></div></a>
+            <a href="http://shane.wowfh.com/html/class.html"><div><span>Teacher Training</span></div></a>
+          </div>
         </div>
         <div>
           <a href="#">
-            <div>
+            <div id="clp-header-4">
               <span>Teaching at shane</span>
             </div>
           </a>
+          <button class="collapsed" type="button" data-toggle="collapse" data-target="#clp-col-4" aria-expanded="true" aria-controls="clp-col-4" style="top:0;"> ▼ </button>
+          <div id="clp-col-4" class="collapse" aria-labelledby="clp-header-4" data-parent="#mobile-hidden-panel">
+            <a href="salary_and_benefits.html"><div><span>Salary and Benefits</span></div></a>
+            <a href="#"><div><span>Job description</span></div></a>
+          </div>
         </div>
         <div>
           <a href="#">
-            <div>
+            <div id="clp-header-5">
               <span>Locations</span>
             </div>
           </a>
+          <button class="collapsed" type="button" data-toggle="collapse" data-target="#clp-col-5" aria-expanded="true" aria-controls="clp-col-5" style="top:0;"> ▼ </button>
+          <div id="clp-col-5" class="collapse" aria-labelledby="clp-header-5" data-parent="#mobile-hidden-panel">
+            <a href="locations.html#titc"><div><span>Teach in Taipei City</span></div></a>
+            <a href="locations.html#tintc"><div><span>Teach in New Taipei City</span></div></a>
+            <a href="locations.html#tity"><div><span>Teach in Taoyuan</span></div></a>
+            <a href="locations.html#tihc"><div><span>Teach in Hsinchu</span></div></a>
+            <a href="locations.html#titc"><div><span>Teach in Taichung</span></div></a>
+            <a href="locations.html#titn"><div><span>Teach in Tainan</span></div></a>
+            <a href="locations.html#tikh"><div><span>Teach in Kaohsiung</span></div></a>
+          </div>
         </div>
         <div>
           <a href="#">
@@ -122,27 +143,44 @@
          
           <div class="row align-items-center dropdown" aria-haspopup="true" aria-expanded="false">
             <div class="mark"></div>
-            <div class="col"><a href="#">Careers at shane</a></div>
+            <div class="col"><a href="home-eng.html">Careers at shane</a></div>
           </div>
 
           <div class="row align-items-center dropdown" aria-haspopup="true" aria-expanded="false">
             <div class="mark"></div>
-            <div class="col"><a href="#">What we offer</a></div>
+            <div class="col"><a>What we offer</a></div>
+            <div class="dropdown-menu dropdown-menu-center">
+              <a class="dropdown-item" href="orientation_and_support.html">Orientation and support</a>
+              <a class="dropdown-item" href="#">Teacher Training</a>
+            </div>
           </div>
 
           <div class="row align-items-center dropdown" aria-haspopup="true" aria-expanded="false">
             <div class="mark"></div>
-            <div class="col"><a href="#">Teaching at shane</a></div>
+            <div class="col"><a>Teaching at shane</a></div>
+            <div class="dropdown-menu dropdown-menu-center">
+              <a class="dropdown-item" href="salary_and_benefits.html">Salary and Benefits</a>
+              <a class="dropdown-item" href="#">Job description</a>
+            </div>
           </div>
 
           <div class="row align-items-center dropdown" aria-haspopup="true" aria-expanded="false">
             <div class="mark"></div>
-            <div class="col"><a href="#">Locations</a></div>
+            <div class="col"><a href="locations.html">Locations</a></div>
+            <div class="dropdown-menu dropdown-menu-center">
+              <a class="dropdown-item" href="locations.html#titc">Teach in Taipei City</a>
+              <a class="dropdown-item" href="locations.html#tintc">Teach in New Taipei City</a>
+              <a class="dropdown-item" href="locations.html#tity">Teach in Taoyuan</a>
+              <a class="dropdown-item" href="locations.html#tihc">Teach in Hsinchu</a>
+              <a class="dropdown-item" href="locations.html#titc">Teach in Taichung</a>
+              <a class="dropdown-item" href="locations.html#titn">Teach in Tainan</a>
+              <a class="dropdown-item" href="locations.html#tikh">Teach in Kaohsiung</a>
+            </div>
           </div>
 
           <div class="row align-items-center dropdown" aria-haspopup="true" aria-expanded="false">
             <div class="mark"></div>
-            <div class="col"><a href="#">living in Taiwan</a></div>
+            <div class="col"><a href="living_in_taiwan.html">living in Taiwan</a></div>
           </div>
          
         </div>  
@@ -160,7 +198,8 @@
     <!-- - - - - - - - - - - - - - - - - - - - - - - - - - content start here - - - - - - - - - - - - - - - - - - - - - - - - - -->
     <div class="en-content">
 
-      <div class="row type-1">
+      <div class="row type-1 bookmark-container">
+        <div class="bookmark" id="titc"></div>
         <div class="col-12">
           <div class="heading-line"></div><br>
           <h1>Teach in Taipei City </h1>
@@ -174,7 +213,8 @@
         </div>
       </div>
 
-       <div class="row type-1">
+       <div class="row type-1 bookmark-container">
+        <div class="bookmark" id="tintc"></div>
         <div class="col-12">
           <div class="heading-line"></div><br>
           <h1>Teach in New Taipei City</h1>
@@ -190,7 +230,8 @@
       </div>
 
 
-       <div class="row type-1">
+       <div class="row type-1 bookmark-container">
+        <div class="bookmark" id="tity"></div>
         <div class="col-12">
           <div class="heading-line"></div><br>
           <h1>Teach in Taoyuan</h1>
@@ -205,7 +246,8 @@
       </div>
 
 
-       <div class="row type-1">
+       <div class="row type-1 bookmark-container">
+        <div class="bookmark" id="tihc"></div>
         <div class="col-12">
           <div class="heading-line"></div><br>
           <h1>Teach in Hsinchu</h1>
@@ -220,7 +262,8 @@
       </div>
 
 
-       <div class="row type-1">
+       <div class="row type-1 bookmark-container">
+        <div class="bookmark" id="titc"></div>
         <div class="col-12">
           <div class="heading-line"></div><br>
           <h1>Teach in Taichung</h1>
@@ -234,7 +277,8 @@
         </div>
       </div>
 
-      <div class="row type-1">
+      <div class="row type-1 bookmark-container">
+        <div class="bookmark" id="titn"></div>
         <div class="col-12">
           <div class="heading-line"></div><br>
           <h1>Teach in Tainan</h1>
@@ -248,7 +292,8 @@
         </div>
       </div>
 
-      <div class="row type-1">
+      <div class="row type-1 bookmark-container">
+        <div class="bookmark" id="tikh"></div>
         <div class="col-12">
           <div class="heading-line"></div><br>
           <h1>Teach in Kaohsiung</h1>
