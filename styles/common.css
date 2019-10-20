@@ -879,6 +879,11 @@ p {
   margin-bottom: 1em;
   font-weight: 600;
 }
+.en-form .c-form .require-hint h1 {
+  color: #0090D8;
+  font-size: .9em;
+  padding-bottom: 1em;
+}
 
 .en-form .heading-line, .en-content .heading-line{
   width: 4em;
@@ -1091,7 +1096,18 @@ label.c-checkbox >input[type="checkbox"]:checked ~div {background-image: url('..
 }
 
 /* --------------------------- type1 -------------------------- */
-
+.en-content .row.type-1 >div .t-btn{
+  color: #0090D8;
+  background-color: rgba(255,255,255,.8);
+  padding: 1.2em 1.5em;
+  margin-top: .6em;
+  display: inline-block;
+  border: solid 2px #0090D8;
+}
+.en-content .row.type-1 >div .t-btn:hover{
+  color: white;
+  background-color: #0090D8;
+}
 /* --------------------------- type2 -------------------------- */
 .en-content .row.type-2 {
   width: 100%;
