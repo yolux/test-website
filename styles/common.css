@@ -881,8 +881,13 @@ p {
 }
 .en-form .c-form .require-hint h1 {
   color: #0090D8;
-  font-size: .9em;
+  font-size: 1.2em;
   padding-bottom: 1em;
+}
+
+.en-form .c-form .require-hint h1:hover {
+  color: #003C9D;
+  text-decoration:underline;
 }
 
 .en-form .heading-line, .en-content .heading-line{
