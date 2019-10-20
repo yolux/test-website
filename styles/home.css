@@ -1,0 +1,290 @@
+@import "common.css";
+
+/* = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = */
+/* c-banner : (上面 banner)  */
+/* = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = */
+.carousel .carousel-caption{
+  color: #DB143A;
+  top: 25%;
+  bottom: unset;
+  height: 400px;
+  font-size: 12px;
+}
+
+.carousel .carousel-caption h1{
+  font-size: 4em;
+  letter-spacing: 1px;
+  margin-bottom: .5em;
+}
+.carousel .carousel-caption h2{
+  font-size: 2em;
+  letter-spacing: 3px;
+  font-weight: 100;
+  margin-bottom: 1em;
+}
+.carousel .carousel-caption a.a-btn {
+  background-color: #DB143A;
+  color: white;
+  padding: .6em 3em;
+  font-size: 1.2em;
+  border: none;
+}
+
+.carousel .carousel-inner .carousel-item:before {
+  box-shadow: inset 0px 3px 11px -2px rgba(0,0,0,0.75);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: "";
+}
+.carousel-control-prev-icon {
+  background-image: url("../images/banner_arr1.svg");
+  width: 40px;
+  height: 40px;
+}
+.carousel-control-next-icon {
+  background-image: url("../images/banner_arr2.svg");
+  width: 40px;
+  height: 40px;
+}
+.carousel .carousel-inner .carousel-item {
+  height: 400px;
+}
+.carousel .carousel-inner .carousel-item img {
+  height: 100%;
+  width: auto;
+}
+
+@media (min-width: 992px) {
+  .carousel .carousel-caption{
+    font-size: 1vw;
+  }
+  .carousel .carousel-inner .carousel-item {
+    height: 100%;
+  }
+  .carousel .carousel-inner .carousel-item img {
+    height: auto;
+    width: 100%;
+  }
+
+}
+
+
+/* = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = */
+/* c-card : (中央 資訊塊)  */
+/* = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = */
+.c-content button {
+  background-color: transparent;
+  border: none;
+}
+.c-content a {
+  color: black;
+}
+.c-content a:hover {
+  color: #DB143A;
+}
+.c-content .c-card {
+  margin: 0;
+}
+.c-content .c-card {
+  color: black;
+  font-size: 1em;
+  text-align: center;
+  position: relative;
+  margin: 0 1.2em 0em 1.2em;
+  box-shadow: 0px 3px 8px 0px rgba(0,0,0,0.5);
+  margin-top: 2em;
+  margin-bottom: 2em;
+  padding: 0;
+}
+.c-content .c-card >div, .c-content .c-card >a >div {
+  padding: 2em 2em;
+  height: 12.5em;
+  font-size: 1.2em;
+  height: 15em;
+  top: -15em;
+  left:0;
+  width: 100%;
+}
+/*.c-content .c-card >div >img, .c-content .c-card >a >div >img {
+  width: 100%;
+  height: auto;
+}*/
+.c-content .c-card >div.hot >h2, .c-content .c-card >a >div.hot >h2 {
+  font-size: 1.1em;
+  font-weight: normal;
+  margin-bottom: 1.1em;
+}
+
+.c-content .c-card >div.hot >p, .c-content .c-card >a >div.hot >p {
+  color: #717171;
+  text-align: left;
+  font-size: 0.9em;
+}
+.c-content .c-card >div.hot >a, .c-content .c-card >a >div.hot >a {
+  color: #717171;
+  font-size: .9em;	
+  position: absolute;
+  bottom: 1.5em;
+  margin: auto;
+  width: 5em;
+  left: 0;
+  right: 0;
+}
+.c-content .c-card >div.hot >a:hover, .c-content .c-card >a >div.hot >a:hover{ color: #DB143A;}
+.c-content .c-card >div.mask >h1, .c-content .c-card >a >div.mask >h1 {
+  font-size: 1.6em;
+  letter-spacing: 1px;
+  font-weight: normal;
+}
+.c-content .c-card >div.mask, .c-content .c-card >a >div.mask {
+  position: static;
+  text-align: center;
+  color: white;
+  padding: 0;
+  height: 11em;
+  top: -11em;
+  z-index: 1000;
+  box-shadow: 0px -4px 9px 1px rgba(0,0,0,0.6)
+}
+.c-content .c-card >div.mask >div, .c-content .c-card >a >div.mask >div{
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 50%;
+  margin: 3.5% 0 2% 0;
+  display: inline-block;
+}
+
+.c-content .c-card >div.news, .c-content .c-card >a >div.news{
+  padding: 0;
+  height: 23em;
+}
+
+.c-content .c-card >div.news >div, .c-content .c-card >a >div.news >div {
+  padding: 1em 1.5em;
+  text-align: left;
+}
+.c-content .c-card >div.news h1, .c-content .c-card >a >div.news h1 {
+  font-size: .9em;
+  color: #161B61;
+}
+.c-content .c-card >div.news h2, .c-content .c-card >a >div.news h2 {
+  font-size: .7em;
+  margin-bottom: .5em;
+}
+.c-content .c-card >div.news p, .c-content .c-card >a >div.news p {
+  font-size: .7em;
+  color: #717171;
+}
+.c-content .c-card >div.videos, .c-content .c-card >a >div.videos{
+  padding: 0;
+  height: auto; 
+}
+.c-content .c-card >div.videos .ad h1, .c-content .c-card >a >div.videos .ad h1 {
+  text-align: left;
+  font-size: .8em;
+  padding: .5em 0;
+  color: #161B61;
+}
+.c-content .c-card >div.videos .ad img, .c-content .c-card >a >div.videos .ad img {
+  width: 100%;
+  height: auto;
+  max-height: 230px;
+  object-fit: cover;
+}
+.c-content .c-card >div.news img, .c-content .c-card >a >div.news img{
+  width: 100%;
+  height: auto;
+}
+.c-content .sp-header-margin {
+  margin-top: 4em;
+  box-shadow: none;
+}
+@media (min-width: 992px) {
+  .c-content .c-card >div.news, .c-content .c-card >a >div.news {
+  	height: 22em;
+  }
+  .c-content .c-card >div.c-content .c-card >a >div,  {
+  	height: 13em;
+  	top: -13em;
+  }
+  .c-content .c-card{
+  	margin-top: 0em;
+  	margin-bottom: 0em;
+  }
+  .c-content .c-card >div.mask, .c-content .c-card >a >div.mask {
+  	position: absolute;
+  	height: 8em;
+    top: -8em;
+  }
+  .c-content .sp-header-margin{ 
+  	margin-top:0;
+  }
+}
+@media (min-width: 1200px) {
+  .c-content .c-card >div.mask, .c-content .c-card >a >div.mask {
+  	position: absolute;
+  	height: 11em;
+    top: -11em;
+  }
+}
+.c-content .c-card .study { background: linear-gradient(0deg,rgba(40,175,230,1),rgba(40,175,230,1));}
+.c-content .c-card .study >div{background-image: url("../images/study.png");}
+.c-content .c-card .class { background: linear-gradient(0deg,rgba(250,190,0,01),rgba(250,190,0,01));}
+.c-content .c-card .class >div{background-image: url("../images/class.png");}
+.c-content .c-card .school { background: linear-gradient(0deg,rgba(250,100,100,1),rgba(250,100,100,1));}
+.c-content .c-card .school >div{background-image: url("../images/school.png");}
+
+.c-content .news-header {
+  font-size: .9rem;
+  position: relative;
+  height: 6em;
+  text-align: left;
+  padding: 2.5em 1em .5em 1em;
+}
+.c-content .news-header a {
+  color: #DB143A;
+}
+.c-content .news-header h1 {
+  display: inline-block;
+  font-size: 2em;
+  margin-right: .5em;
+}
+.c-content .news-header h2 {
+  display: inline-block;	
+  font-size: 1.2em;
+  color: #161B61;
+}
+.c-content .news-header a {
+  margin-left: 0em;
+  display: inline-block;
+  color: #DB143A;
+  font-size: 1em;
+}
+
+.c-content .c-card >div.sp-header {
+  font-size: .9rem;
+  text-align: left;
+  padding: 2.5em 1em .5em 1em;
+  position: absolute;
+  top: -6em;
+  height: 6em;
+  text-align: left;
+}
+
+
+@media (min-width: 992px) {
+  .c-content .news-header a {
+  	margin-left: calc(60% - 15em);
+  }
+}
+/* = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = */
+/* c-news : (中央 新聞塊)  */
+/* = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = */
+
+/* = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = */
+/* c-videos : (中央 影音塊)  */
+/* = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = */

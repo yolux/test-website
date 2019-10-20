@@ -1,0 +1,6 @@
+.c-header >div >div.pm-member-info{display: block;}
+.c-map .login.pm-login-entry{display: none;}
+.pm-logined-menu { display: block;}
+@media (max-width: 768px) {
+ .c-header >div >div.pm-member-info{ display: none;}
+}
