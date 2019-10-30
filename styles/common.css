@@ -1067,7 +1067,7 @@ label.c-checkbox >input[type="checkbox"]:checked ~div {background-image: url('..
 /* --------------------------- type n common -------------------------- */
 .en-content .row{
   width: 80%;
-  font-size: 1em;
+  font-size: 18px;
   margin: 3em 9% 3em 10%;
 }
 .en-content .row .heading-line{
@@ -1091,7 +1091,7 @@ label.c-checkbox >input[type="checkbox"]:checked ~div {background-image: url('..
   margin-bottom: 1em;
 }
 .en-content .row >div p {
-  margin-bottom: 3.5em;
+  margin-bottom: 1.5em;
 }
 
 @media (max-width: 576px) {
@@ -1160,7 +1160,7 @@ label.c-checkbox >input[type="checkbox"]:checked ~div {background-image: url('..
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(0,0,0,0.3);
+  background-color: rgba(0,0,0,0.1);
   z-index: -1;
 }
 
