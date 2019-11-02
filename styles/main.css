@@ -905,6 +905,24 @@ label.c-checkbox >input[type="checkbox"]:checked ~div {background-image: url('..
 .s-header .link-menu >a >div:hover{
   color: #0071AE;
 }
+.s-header .hot-news {
+  position: absolute;
+  right: 10em;
+  width: auto;
+  height: 100%;
+  padding: 1em 0;
+  z-index: 1001;
+  color: black;
+  text-align: right;
+  line-height: 2em;
+}
+.s-header .hot-news >a{
+  color: black;
+  font-size: .8em;
+}
+@media (max-width: 1300px) {
+  .s-header .hot-news { display: none;}
+}
 .s-header .social-menu {
   position: absolute;
   right: 0;
@@ -1386,6 +1404,13 @@ h1.custom-1{
   cursor: pointer;
   max-width: 200px;
 }
+.i-form .hint-link {
+  color: black;
+  text-align: center;
+  font-size: .8px;
+  padding: 0 0 3em 0;
+}
+
 /*---------------------------------------------------*/
 .talents .i-banner {
   background-color: #EBCC23;
