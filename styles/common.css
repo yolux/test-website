@@ -1251,7 +1251,7 @@ label.c-checkbox >input[type="checkbox"]:checked ~div {background-image: url('..
   text-align: center;
 }
 .form-complete h1{
-  padding: 1em 10em;
+  padding: 4em 20em;
   font-size: 1.1rem;
   text-align: left;
   line-height: 1.6em;
