@@ -1,0 +1,300 @@
+<!doctype html>
+<html lang="zh-Hant">
+  <head>
+    <title>夏恩英語</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css">
+    <link rel="stylesheet" href="styles/home-eng.css">
+  </head>
+   <body>
+
+    <div class="container-fluid main c-header">
+      <div>
+        <div class="slogan blue-theme">Move Ahead with Shane English School</div>
+        <div class="social-ico">
+          <a href="#"><div class="icon fb"></div></a>  
+        </div>
+        
+      </div>
+    </div>
+
+    <div class="modal fade" id="login-modal" tabindex="-1" role="dialog" aria-labelledby="login-modal-label" aria-hidden="true">
+      <div class="modal-dialog modal-sm" role="document">
+        <div class="modal-content popup-login">
+          
+          <h1 id="login-modal-label">分校登入</h1>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+          <input type="text" class="error" placeholder="登入帳號">
+          <input type="text" placeholder="密碼">
+          <button type="button" class="btn forgot" data-toggle="modal" data-target="#forgot-pw-modal">忘記密碼？</button>
+          <button type="button" class="btn confirm">登入</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="forgot-pw-modal" tabindex="-1" role="dialog" aria-labelledby="login-modal-label" aria-hidden="true">
+      <div class="modal-dialog modal-sm" role="document">
+        <div class="modal-content popup-login">
+          
+          <h1 id="login-modal-label">忘記密碼</h1>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+          <input type="text" class="error" placeholder="信箱認證">
+          <p>不用擔心,只需要填信箱我們將會送給您重設密碼說明</p>
+          <button type="button" class="btn confirm">送出</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="reset-pw-modal" tabindex="-1" role="dialog" aria-labelledby="login-modal-label" aria-hidden="true">
+      <div class="modal-dialog modal-sm" role="document">
+        <div class="modal-content popup-login">
+          
+          <h1 id="login-modal-label">重設密碼</h1>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+          <input type="text" class="error" placeholder="新密碼">
+          <input type="text" placeholder="確認密碼">
+          <p></p>
+          <button type="button" class="btn confirm">重設</button>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="container-fluid mobile-nav mobile-only">
+      <a href="http://shane.wowfh.com/html/home.html" class="logo"></a>
+      <div class="ham blue-theme" id="mobile-nav-ham"></div>
+      <div id="mobile-hidden-panel" class="hidden-panel">
+          
+        <div>
+          <a href="#">
+            <div>
+              <span>Careers at shane</span>
+            </div>
+          </a>
+        </div>
+
+        <div>
+          <a href="">
+            <div id="clp-header-3">
+              <span>What we offer</span>
+            </div>
+          </a>
+          <button class="collapsed" type="button" data-toggle="collapse" data-target="#clp-col-3" aria-expanded="true" aria-controls="clp-col-3" style="top:0;"> ▼ </button>
+          <div id="clp-col-3" class="collapse" aria-labelledby="clp-header-3" data-parent="#mobile-hidden-panel">
+            <a href="orientation_and_support.html"><div><span>Orientation and support</span></div></a>
+            <a href="http://shane.wowfh.com/html/class.html"><div><span>Teacher Training</span></div></a>
+          </div>
+        </div>
+        <div>
+          <a href="#">
+            <div id="clp-header-4">
+              <span>Teaching at shane</span>
+            </div>
+          </a>
+          <button class="collapsed" type="button" data-toggle="collapse" data-target="#clp-col-4" aria-expanded="true" aria-controls="clp-col-4" style="top:0;"> ▼ </button>
+          <div id="clp-col-4" class="collapse" aria-labelledby="clp-header-4" data-parent="#mobile-hidden-panel">
+            <a href="salary_and_benefits.html"><div><span>Salary and Benefits</span></div></a>
+            <a href="#"><div><span>Job description</span></div></a>
+          </div>
+        </div>
+        <div>
+          <a href="#">
+            <div id="clp-header-5">
+              <span>Locations</span>
+            </div>
+          </a>
+          <button class="collapsed" type="button" data-toggle="collapse" data-target="#clp-col-5" aria-expanded="true" aria-controls="clp-col-5" style="top:0;"> ▼ </button>
+          <div id="clp-col-5" class="collapse" aria-labelledby="clp-header-5" data-parent="#mobile-hidden-panel">
+            <a href="locations.html#titcy"><div><span>Teach in Taipei City</span></div></a>
+            <a href="locations.html#tintc"><div><span>Teach in New Taipei City</span></div></a>
+            <a href="locations.html#tity"><div><span>Teach in Taoyuan</span></div></a>
+            <a href="locations.html#tihc"><div><span>Teach in Hsinchu</span></div></a>
+            <a href="locations.html#titc"><div><span>Teach in Taichung</span></div></a>
+            <a href="locations.html#titn"><div><span>Teach in Tainan</span></div></a>
+            <a href="locations.html#tikh"><div><span>Teach in Kaohsiung</span></div></a>
+          </div>
+        </div>
+        <div>
+          <a href="#">
+            <div>
+              <span>Living in Taiwan</span>
+            </div>
+          </a>
+          <button class="collapsed" type="button" data-toggle="collapse" data-target="#clp-col-5" aria-expanded="true" aria-controls="clp-col-5" style="top:0;"> ▼ </button>
+          <div id="clp-col-5" class="collapse" aria-labelledby="clp-header-5" data-parent="#mobile-hidden-panel">
+            <a href="living_in_taiwan.html#titc"><div><span>Getting Around</span></div></a>
+            <a href="living_in_taiwan.html#tintc"><div><span>Grabbing A Bitei</span></div></a>
+            <a href="living_in_taiwan.html#tity"><div><span>Getting An Apartment</span></div></a>
+            <a href="living_in_taiwan.html#tihc"><div><span>Learning The Language</span></div></a>
+            <a href="living_in_taiwan.html#titc"><div><span>Meeting Up And Making Friends</span></div></a>
+            <a href="living_in_taiwan.html#titn"><div><span>Getting Out And Having Fun</span></div></a>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+
+    <div class="container-fluid main c-nav pc-only blue-theme">
+      <div>
+        <a href="http://shane.wowfh.com/html/home.html" class="logo"></a>
+        <div class="menu">
+         
+          <div class="row align-items-center dropdown" aria-haspopup="true" aria-expanded="false">
+            <div class="mark"></div>
+            <div class="col"><a href="home-eng.html">Careers at shane</a></div>
+          </div>
+
+          <div class="row align-items-center dropdown" aria-haspopup="true" aria-expanded="false">
+            <div class="mark"></div>
+            <div class="col"><a>What we offer</a></div>
+            <div class="dropdown-menu dropdown-menu-center">
+              <a class="dropdown-item" href="orientation_and_support.html">Orientation and support</a>
+              <a class="dropdown-item" href="#">Teacher Training</a>
+            </div>
+          </div>
+
+          <div class="row align-items-center dropdown" aria-haspopup="true" aria-expanded="false">
+            <div class="mark"></div>
+            <div class="col"><a>Teaching at shane</a></div>
+            <div class="dropdown-menu dropdown-menu-center">
+              <a class="dropdown-item" href="salary_and_benefits.html">Salary and Benefits</a>
+              <a class="dropdown-item" href="#">Job description</a>
+            </div>
+          </div>
+
+          <div class="row align-items-center dropdown" aria-haspopup="true" aria-expanded="false">
+            <div class="mark"></div>
+            <div class="col"><a href="locations.html">Locations</a></div>
+            <div class="dropdown-menu dropdown-menu-center">
+              <a class="dropdown-item" href="locations.html#titcy">Teach in Taipei City</a>
+              <a class="dropdown-item" href="locations.html#tintc">Teach in New Taipei City</a>
+              <a class="dropdown-item" href="locations.html#tity">Teach in Taoyuan</a>
+              <a class="dropdown-item" href="locations.html#tihc">Teach in Hsinchu</a>
+              <a class="dropdown-item" href="locations.html#titc">Teach in Taichung</a>
+              <a class="dropdown-item" href="locations.html#titn">Teach in Tainan</a>
+              <a class="dropdown-item" href="locations.html#tikh">Teach in Kaohsiung</a>
+            </div>
+          </div>
+
+          <div class="row align-items-center dropdown" aria-haspopup="true" aria-expanded="false">
+            <div class="mark"></div>
+            <div class="col"><a href="living_in_taiwan.html">Living in Taiwan</a></div>
+            <div class="dropdown-menu dropdown-menu-center">
+              <a class="dropdown-item" href="living_in_taiwan.html#titc">Getting Around</a>
+              <a class="dropdown-item" href="living_in_taiwan.html#tintc">Grabbing A Bitei</a>
+              <a class="dropdown-item" href="living_in_taiwan.html#tity">Getting An Apartment</a>
+              <a class="dropdown-item" href="living_in_taiwan.html#tihc">Learning The Language</a>
+              <a class="dropdown-item" href="living_in_taiwan.html#titc">Meeting Up And Making Friends</a>
+              <a class="dropdown-item" href="living_in_taiwan.html#titn">Getting Out And Having Fun</a>
+            </div>
+          </div>
+         
+        </div>  
+      </div>
+    </div>
+    <!--  - - - - - - - - - - - - - - - - - - - - - - - - - content start here - - - - - - - - - - - - - - - - - - - - - - - - - -->
+    <div class="form-complete">
+      <h1>Thank you for applying for a teaching job at Shane English School Taiwan. A member of our team will endeavour to get back to you within 5 working days. Please check your Spam or Junk folders if you have not heard from us within that period.</h1>
+      <a href="#"><div class="home">Home</div></a>
+    </div>
+    <!--  - - - - - - - - - - - - - - - - - - - - - - - - - content end here - - - - - - - - - - - - - - - - - - - - - - - - - -->
+    <div class="container-fluid main c-map">
+      <div>
+        <div class="row justify-content-between align-items-start">
+          <div class="col-12 col-md-6 col-lg-auto">
+            <div class="c-card">
+              <a href="#"><div>Careers at shane</div></a>
+            </div>
+            <div class="c-card">
+              <a href="#"><div>What we offer</div></a>
+              <div class="sub-map">
+                <a href="#"><div>Orientation and support</div></a>
+                <a href="#"><div>Teacher Training</div></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-auto">
+            <div class="c-card">
+              <a href="#"><div>Teaching at shane</div></a>
+              <div class="sub-map">
+                <a href="#"><div>Salary and Benefits</div></a>
+                <a href="#"><div>Job description</div></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-auto">
+            <div class="c-card">
+              <a href="#"><div>Locations</div></a>
+              <div class="sub-map">
+                <a href="locations.html#titcy"><div>Teach in Taipei City</div></a>
+                <a href="locations.html#tintc"><div>Teach in New Taipei City</div></a>
+                <a href="locations.html#tity"><div>Teach in Taoyuan</div></a>
+                <a href="locations.html#tihc"><div>Teach in Hsinchu</div></a>
+                <a href="locations.html#titc"><div>Teach in Taichung</div></a>
+                <a href="locations.html#titn"><div>Teach in Tainan</div></a>
+                <a href="locations.html#tikh"><div>Teach in Kaohsiung</div></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-auto">
+            <div class="c-card">
+              <a href="＃"><div>Living in Taiwan</div></a>
+              <div class="sub-map">
+                <a href="living_in_taiwan.html#"><div>Getting Around</div></a>
+                <a href="living_in_taiwan.html#tintc"><div>Grabbing A Bitei</div></a>
+                <a href="living_in_taiwan.html#tity"><div>Getting An Apartment</div></a>
+                <a href="living_in_taiwan.html#tihc"><div>Learning The Language</div></a>
+                <a href="living_in_taiwan.html#titc"><div>Meeting Up And Making Friends</div></a>
+                <a href="living_in_taiwan.html#titn"><div>Getting Out And Having Fun</div></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid main c-footer">
+      <div>
+        <div class="row">
+          <div class="col-12 row justify-content-center">
+            <div class="col-auto split">夏恩國際教育股份有限公司 (夏恩英語)</div>
+            <div class="col-auto split">台北市中正區博愛路148號4樓</div>
+            <div class="col-auto split">(02) 2311-6000 星期一至五 10:00 ~ 18:00</div>
+            <div class="col-auto split">karen.lu@shane.com.tw</div>
+          </div>
+          <div class="col-12 row justify-content-center">
+            <div class="col-auto">Copyright © 2015</div>
+            <div class="col-auto">Shane English School Taiwan.</div>
+            <div class="col-auto">All rights reserved.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="fb-root"></div>
+    <div class="stick-card"><div></div><span>APPLY NOW!</span></div>
+
+    <!-- jquery slim is not enough for jquery ui <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script> -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>  
+    <script>
+      $( "#mobile-nav-ham" ).click(function() {
+        $( "#mobile-hidden-panel" ).toggle( 'slide',{direction: "right" },400);
+      });
+      $( "#mobile-panel-ham" ).click(function() {
+        $( "#mobile-hidden-panel" ).toggle( 'slide',{direction: "right" },400);
+      });
+    </script>
+    
+  </body>
+</html>

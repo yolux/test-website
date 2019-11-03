@@ -1064,6 +1064,26 @@ label.c-checkbox >input[type="checkbox"]:checked ~div {background-image: url('..
   width: 10em;
   border-top: 2px solid; 
 }
+
+.en-content .italic-p {
+  position: relative;
+  font-style: italic;
+  border-left: solid 6px #3498db;
+}
+.en-content .italic-p >div{
+  font-style: italic;
+  background-color: #dcdcdc;
+  padding: 2em 2em 2em 4em;
+}
+.en-content .italic-p >div::before {
+  content:'“';
+  color: #3498db;
+  position: absolute;
+  top: .2em;
+  left: .2em;
+  font-size: 4em;
+}
+
 /* --------------------------- type n common -------------------------- */
 .en-content .row{
   width: 80%;
@@ -1222,3 +1242,37 @@ label.c-checkbox >input[type="checkbox"]:checked ~div {background-image: url('..
   min-height: 180px;
   z-index: -10;
 }
+
+/*---------------------------------------------------*/
+.form-complete {
+  width: 100%;
+  height: calc(100vh - 100px);
+  padding-top: 150px;
+  text-align: center;
+}
+.form-complete h1{
+  padding: 1em 10em;
+  font-size: 1.1rem;
+  text-align: left;
+  line-height: 1.6em;
+}
+@media (max-width: 576px) {
+  .form-complete h1{
+    padding: 1em 2em;
+  }
+}
+.form-complete .home{
+  background-color: #B3272D;
+  color: white;
+  border-radius: 50px;
+  height: 50px;
+  line-height: 50px;
+  width: 50%;
+  text-align: center;
+  margin: 30px 0;
+  cursor: pointer;
+  max-width: 200px;
+  display: inline-block;
+}
+
+
