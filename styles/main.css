@@ -1035,9 +1035,9 @@ label.c-checkbox >input[type="checkbox"]:checked ~div {background-image: url('..
 
 .carousel-caption {
   font-size: 1.3vw;
-  bottom: unset;
+  bottom: auto;
   top: 25%;
-  left: unset;
+  left: auto;
   right: 8%;
   width: 50%;
 }
@@ -1063,7 +1063,7 @@ label.c-checkbox >input[type="checkbox"]:checked ~div {background-image: url('..
 .carousel-control-next-icon{
     position: relative;
     right: -30%;
-    left: unset;
+    left: auto;
 }
 
 @media (max-width: 576px) {
@@ -1135,7 +1135,7 @@ h1.c-pink, p.c-pink {color: #DF1E79; background-color: transparent;}
     height: auto;
     position: absolute;
     bottom: 0;
-    top: unset;
+    top: auto;
   } 
 }
 .bar-div .fg-img img{
