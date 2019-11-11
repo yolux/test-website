@@ -456,7 +456,7 @@ label.c-checkbox {
   line-height: 1.3em; /* @i */
   padding-left: 1.7em; /* @i */
   width: auto;
-  margin: 0 .5em;
+  margin: 1.3em .5em;
   text-align: left;
   cursor: pointer;
 }
@@ -974,6 +974,17 @@ body.submit .c-step2-summary >div {
 }
 body.submit .c-step2-summary >div >div:first-of-type {color: black;}
 
+body.submit .final-summary {
+  margin-bottom: 2em;
+}
+body.submit .final-summary h1{
+  color: red;
+  font-size: 1.8em;
+  margin-bottom: 1em;
+}
+.checkbox-handler-target {
+  display: none;
+}
 /* = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = */
 /*   */
 /* = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = */

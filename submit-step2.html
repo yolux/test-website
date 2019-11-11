@@ -82,9 +82,14 @@
             <input type="text" placeholder="身分證號碼">
           </div>
           <label class="c-checkbox">
-            <input type="checkbox"><div></div>外國人
+            <input type="checkbox" onclick="checkboxHandler('checkbox-1-mobile')" id="checkbox-1-mobile"><div></div>外國人
           </label>
-
+          <div class="c-input icon-member checkbox-handler-target">
+            <input type="text" placeholder="國籍">
+          </div>
+          <div class="c-input icon-member checkbox-handler-target">
+            <input type="text" placeholder="護照號碼">
+          </div>
           <div class="birth-group">
             <div class="c-input icon-birth">
               <input type="text" placeholder="1990">
@@ -226,12 +231,26 @@
                 <div class="col-auto"><label class="c-radiobox"><input type="radio"><div></div>女</label></div>
               </div>
             </div>
+            
+          </div>
+          <div class="row align-items-center justify-content-between">
             <div class="col-4">
               <label class="c-checkbox">
-                <input type="checkbox"><div></div>外國人
+                <input type="checkbox"  onclick="checkboxHandler('checkbox-1-pc')" id="checkbox-1-pc"><div></div>外國人
               </label>
             </div>
+            <div class="col-4">
+              <div class="c-input icon-name checkbox-handler-target">
+                <input type="text" placeholder="國籍">
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="c-input icon-name checkbox-handler-target">
+                <input type="text" placeholder="護照號碼">
+              </div>
+            </div>
           </div>
+
           <div class="row align-items-center justify-content-between birth-group">
             <div class="col-4">
               <div class="c-input icon-birth">
@@ -530,5 +549,13 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+    <script>
+      function checkboxHandler(name){
+          if ($('#'+name).is(':checked'))
+            $( '.checkbox-handler-target' ).show();
+          else
+            $( '.checkbox-handler-target' ).hide();
+      }
+    </script>
   </body>
 </html>
