@@ -964,8 +964,8 @@ p {
   }
   .p-nsm .d-cards >div >div >div{
     position: relative;
-    top: unset;
-    left: unset;
+    top: auto;
+    left: auto;
     display: inline-block;
     margin-bottom: 20px;
   }
@@ -998,7 +998,7 @@ p {
   border-style: solid;
   position: absolute;
   left: 0px;
-  top: unset;
+  top: auto;
   margin-top: 10px;
   border-width: 4px 0 4px 8px;
   border-color: transparent transparent transparent #DB143A;
@@ -1502,7 +1502,7 @@ p {
   border-style: solid;
   position: absolute;
   left: 0px;
-  top: unset;
+  top: auto;
   margin-top: 10px;
   border-width: 4px 0 4px 8px;
   border-color: transparent transparent transparent #DB143A;
@@ -1700,16 +1700,16 @@ p {
 @media (max-width: 768px) {
   .p-scl-d .c-info img {
     position: relative;
-    top:unset;
+    top:auto;
     width: 90%;
-    right:unset;
+    right:auto;
     margin-bottom: 8px;
-    max-width: unset;
+    max-width: auto;
   }
   .p-scl-d .icon.line, .p-scl-d .icon.fb{
     position: relative;
-    margin-top: unset;
-    right:unset;
+    margin-top: auto;
+    right:auto;
     /*margin-left: 10px;*/
   }
 }
