@@ -57,7 +57,7 @@
   width: auto;
 }
 
-@media (orientation: landscape) {
+@media (min-width: 700px) {
   .carousel .carousel-caption{
     font-size: 1vw;
   }
