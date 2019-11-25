@@ -165,7 +165,7 @@ html {
 
 .pc-only {display: block !important;}
 .mobile-only {display: none !important;}
-@media (max-width: 1200px) {
+@media (max-width: 1366px) {
   .pc-only { display: none !important; }
   .mobile-only {display: block !important;}
 }
@@ -181,7 +181,7 @@ html {
   max-width: 1250px;
   font-size: 1rem;
 }
-@media (max-width: 1200px) {
+@media (max-width: 1366px) {
   .container-fluid.main >div{
     width: 85%;
   }
@@ -234,7 +234,7 @@ html {
   left:0;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1366px) {
   .page-banner >div {
     margin-left: 2.5%;
   }
@@ -285,7 +285,7 @@ p {
   text-align: right;
   display: inline-block;
 }
-@media (max-width: 1200px) {
+@media (max-width: 1366px) {
   .container-fluid.main.c-header >div {
     padding: 8px 15px 8px 10px;
     width: 100%;
@@ -370,7 +370,7 @@ p {
   margin-right: 10px;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1366px) {
   .c-header .slogan {line-height: 17px; margin-left: 2px;}
   .c-header .slogan span{ display: block; }
   .c-header .slogan.blue-theme {line-height: 33px;}
@@ -790,7 +790,7 @@ p {
   
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1366px) {
   .cs-popup {
     right: 30px;
   }
@@ -818,7 +818,7 @@ p {
   background-color: white;
   position: relative;
 }
-@media (max-width: 1200px) {
+@media (max-width: 1366px) {
   .en-form .c-form { padding: 10vw;}
 }
 .en-form .c-form input, .en-form .c-form select, .en-form .c-form textarea {
@@ -1114,7 +1114,7 @@ label.c-checkbox >input[type="checkbox"]:checked ~div {background-image: url('..
   margin-bottom: 1.5em;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1366px) {
   .en-content .row >div img{
     padding: 0 0 3em 0;
   }
@@ -1256,7 +1256,7 @@ label.c-checkbox >input[type="checkbox"]:checked ~div {background-image: url('..
   text-align: left;
   line-height: 1.6em;
 }
-@media (max-width: 1200px) {
+@media (max-width: 1366px) {
   .form-complete h1{
     padding: 1em 2em;
   }
