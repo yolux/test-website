@@ -640,6 +640,16 @@ p {
   top: -150px;
   left: 0;
 }
+
+@media (orientation: portrait) {
+  .portrait-single-col {
+    width: 100% !important;
+    max-width: 100% !important;
+    flex: 0 0 100% !important;
+    order: unset;
+  }  
+}
+
 /* = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = */
 /* c-map : (頁面底site map)  */
 /* = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = */
