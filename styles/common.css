@@ -641,6 +641,10 @@ p {
   left: 0;
 }
 
+.portrait-text-center {
+  text-align: left;
+}
+
 @media (orientation: portrait) {
   .portrait-single-col {
     width: 100% !important;
@@ -648,6 +652,9 @@ p {
     flex: 0 0 100% !important;
     order: unset;
   }  
+  .portrait-text-center {
+    text-align: center !important;
+  }
 }
 
 /* = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = */
