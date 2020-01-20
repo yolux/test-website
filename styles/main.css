@@ -1742,6 +1742,148 @@ h1.custom-1{
 
 }
 /*---------------------------------------------------*/
+.afterschool h1, .afterschool h2{
+  color: #08338D;  
+}
+.afterschool h1 {
+  padding-top: 1.5em;
+}
+.afterschool .i-bar-div {
+  padding: 0 !important;
+}
+.afterschool .lightgreen {
+  background-color: #F3FFC0;
+}
+
+.afterschool .darkgreen, .afterschool .i-form {
+  background-color: #B7D14A;
+}
+.afterschool .i-bar-header {
+  position: relative;
+  top: 8rem;
+  color: black;
+  font-size: 1.8rem;
+}
+@media (max-width: 768px) { 
+  .afterschool .i-bar-header {font-size: 1rem;}
+}
+
+.afterschool .i-bar-header h1{
+  padding-top: 0;
+  font-size: 2.5em;
+}
+.afterschool .i-bar-header h2{
+  font-size: 1.5em;
+}
+.afterschool .i-bar-header h3{
+  font-size: 1.1em;
+}
+
+.afterschool .i-bar-img {
+  margin-top: 5em;
+  width: 80vw;
+}
+
+.afterschool .custom-ac-1 {
+  width: 80%;
+  margin: auto;
+}
+.afterschool .custom-ac-2 {
+  padding-bottom: 0;
+  text-align: left;
+  padding-right: 2em;
+}
+
+.afterschool .custom-ac-3 {
+  width: 40%;
+  margin-bottom: .5em;
+}
+
+.afterschool .custom-ac-4 {
+  padding-left: .5em;
+  padding-bottom: .5em;
+  text-align: left;
+}
+.afterschool .custom-ac-5 {
+  margin: .5em 0 1em 0;
+}
+.afterschool .custom-ac-6 {
+  font-size: 2rem;
+}
+
+.afterschool .custom-ac-6 h1{
+  font-size: 1.5em;
+}
+
+.afterschool .custom-ac-6 h2{
+  font-size: 1.3em;
+}
+
+.afterschool .custom-ac-6 p{
+  width: 60%;
+  margin: auto;
+  font-size: .6em;
+  padding-top: .6em;
+}
+@media (max-width: 768px) { 
+  .afterschool .custom-ac-6 { font-size: 1rem;}
+  .afterschool .custom-ac-6 p{ width: 50%; }
+}
+.afterschool .custom-ac-7 {
+  width: 60%;
+}
+
+@media (max-width: 768px) { 
+  .afterschool .custom-ac-8 { display: none;}
+}
+.afterschool .lesson-table {
+  width: 80%;
+  max-width: 700px;
+  margin: auto;
+  padding: 3em 0 8em 0;
+  position: relative
+}
+.afterschool .lesson-table table {
+  color: white;
+  border: solid 1px white;
+}
+.afterschool .lesson-table table thead{
+  background-color: #D21819;
+}
+.afterschool .lesson-table table tbody{
+  background-color: #043784;
+}
+.afterschool .lesson-table table td{
+  height: 3em;
+}
+.afterschool .lesson-table table td.crossed{
+   background-image: linear-gradient(to right top,  transparent calc(50% - 1px), white, transparent calc(50% + 1px)); 
+}
+.afterschool .lesson-table .table-title {
+  position: absolute;
+  left: 0;
+  top: 1em;
+  color: #08338D;  
+}
+.afterschool .lesson-table .table-footer {
+  position: absolute;
+  left: 0;
+  bottom: 1em;
+  text-align: left;
+}
+.afterschool .lesson-table .table-footer-icon {
+  position: absolute;
+  right: 0;
+  bottom: 1em;
+  text-align: right;
+  margin-bottom: 1rem;
+}
+.afterschool .lesson-table .table-footer-icon img{
+  width: 12%;
+  margin: 0 .5em;
+}
+
+/*---------------------------------------------------*/
 .form-complete {
   width: 100%;
   height: calc(100vh - 100px);
