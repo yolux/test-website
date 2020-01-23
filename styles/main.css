@@ -334,6 +334,7 @@ p {
   border-right: .26em solid transparent;  
   border-left: .26em solid transparent;
   vertical-align: .2em;
+  pointer-events: none;
 }
 .c-header .input-group-prepend .dropdown-toggle-split {
   padding-right: .7rem;
@@ -1388,6 +1389,7 @@ h1.custom-1{
   border-style: solid;
   border-width: 7px 7px 0 7px;
   border-color: #DB143A transparent transparent transparent;
+  pointer-events: none;
 }
 .i-form label.c-radio {
   width: auto;
@@ -1747,9 +1749,17 @@ h1.custom-1{
 }
 .afterschool h1 {
   padding-top: 1.5em;
+  font-weight: bold;
 }
 .afterschool .i-bar-div {
-  padding: 0 !important;
+  padding: 0 10% !important;
+}
+
+@media (max-width: 768px) { 
+  .afterschool .i-bar-div {
+  padding: 0 5% !important;
+}
+
 }
 .afterschool .lightgreen {
   background-color: #F3FFC0;
@@ -1787,6 +1797,7 @@ h1.custom-1{
 .afterschool .custom-ac-1 {
   width: 80%;
   margin: auto;
+  padding: 3em 0;
 }
 .afterschool .custom-ac-2 {
   padding-bottom: 0;
@@ -1837,8 +1848,8 @@ h1.custom-1{
   .afterschool .custom-ac-8 { display: none;}
 }
 .afterschool .lesson-table {
-  width: 80%;
-  max-width: 700px;
+  width: 90%;
+  max-width: 1200px;
   margin: auto;
   padding: 3em 0 8em 0;
   position: relative
@@ -1882,7 +1893,6 @@ h1.custom-1{
   width: 12%;
   margin: 0 .5em;
 }
-
 /*---------------------------------------------------*/
 .form-complete {
   width: 100%;
