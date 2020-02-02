@@ -1840,16 +1840,28 @@ h1.custom-1{
   .afterschool .custom-ac-6 { font-size: 1rem;}
   .afterschool .custom-ac-6 p{ width: 50%; }
 }
-.afterschool .custom-ac-7 {
-  width: 60%;
-}
 
 @media (max-width: 768px) { 
   .afterschool .custom-ac-8 { display: none;}
 }
+
+.afterschool .custom-ac-9 {
+  padding: 3em 10% 5em 10% !important;
+}
+
+.afterschool .custom-ac-10 {
+  padding: 1em 15% 2em 15% !important;
+}
+.afterschool .custom-ac-10 img{
+  width: 100%;
+}
+.afterschool .custom-ac-7 {
+  width: 70% !important;
+}
+
 .afterschool .lesson-table {
-  width: 90%;
-  max-width: 1200px;
+  width: 100%;
+  /*max-width: 1200px;*/
   margin: auto;
   padding: 3em 0 8em 0;
   position: relative
