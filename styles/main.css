@@ -1790,8 +1790,18 @@ h1.custom-1{
 }
 
 .afterschool .i-bar-img {
-  margin-top: 5em;
+  margin-top: -1em;
   width: 80vw;
+}
+@media (max-width: 1200px) { 
+  .afterschool .i-bar-img {
+    margin-top: 2em;
+  }
+}
+@media (max-width: 768px) { 
+  .afterschool .i-bar-img {
+    margin-top: 6em;
+  }
 }
 
 .afterschool .custom-ac-1 {
@@ -1808,6 +1818,11 @@ h1.custom-1{
 .afterschool .custom-ac-3 {
   width: 40%;
   margin-bottom: .5em;
+}
+@media (max-width: 768px) { 
+  .afterschool .custom-ac-3 {
+    width: 90%;
+  }
 }
 
 .afterschool .custom-ac-4 {
@@ -1838,7 +1853,7 @@ h1.custom-1{
 }
 @media (max-width: 768px) { 
   .afterschool .custom-ac-6 { font-size: 1rem;}
-  .afterschool .custom-ac-6 p{ width: 50%; }
+  .afterschool .custom-ac-6 p{ width: 90%; }
 }
 
 @media (max-width: 768px) { 
