@@ -1355,6 +1355,7 @@ h1.custom-1{
   font-size: 16px;
   padding: 0 15px 0 15px;
   line-height: 40px;
+  background-color: white;
 }
 
 .i-form textarea {
@@ -1750,6 +1751,10 @@ h1.custom-1{
 .afterschool h1 {
   padding-top: 1.5em;
   font-weight: bold;
+  font-size: 2.1em;
+}
+.afterschool .i-bar-div >div >p, .afterschool .i-bar-div p {
+  text-align: justify;
 }
 .afterschool .i-bar-div {
   padding: 0 10% !important;
@@ -1757,8 +1762,11 @@ h1.custom-1{
 
 @media (max-width: 768px) { 
   .afterschool .i-bar-div {
-  padding: 0 5% !important;
-}
+    padding: 0 40px !important;
+  }
+  .afterschool .i-bar-div >div >img {
+    width: 100%;
+  }
 
 }
 .afterschool .lightgreen {
@@ -1809,10 +1817,26 @@ h1.custom-1{
   margin: auto;
   padding: 3em 0;
 }
+@media (max-width: 768px) { 
+  .afterschool .custom-ac-1 {
+    width: 100%;
+    margin: 0;
+  }
+}
+.afterschool .custom-ac-1 span{
+  font-size: 1.7em;
+  text-align: justify;
+} 
 .afterschool .custom-ac-2 {
   padding-bottom: 0;
-  text-align: left;
+  text-align: justify;
   padding-right: 2em;
+}
+
+@media (max-width: 768px) { 
+  .afterschool .custom-ac-2 {
+    padding: 0 0 0 1.5em;
+  }
 }
 
 .afterschool .custom-ac-3 {
@@ -1827,8 +1851,16 @@ h1.custom-1{
 
 .afterschool .custom-ac-4 {
   padding-left: .5em;
-  text-align: left;
+  text-align: justify;
 }
+
+@media (max-width: 768px) { 
+  .afterschool .custom-ac-4 {
+    padding: 0;
+  }
+}
+
+
 .afterschool .custom-ac-5 {
   margin: .5em 0 1em 0;
 }
@@ -1845,14 +1877,13 @@ h1.custom-1{
   margin: auto;
   font-size: .6em;
   padding-top: .6em;
-  text-align: justify;
 }
 @media (max-width: 768px) { 
   .afterschool .custom-ac-6 { font-size: 1rem;}
+  .afterschool .custom-ac-6 h1 span{ display: block;}
   .afterschool .custom-ac-6 p{ 
-    width: 90%; 
+    width: 100%; 
     font-size: 1em;
-    text-align: justify;
   }
 }
 
@@ -1863,18 +1894,36 @@ h1.custom-1{
 .afterschool .custom-ac-9 {
   padding: 3em 10% 5em 10% !important;
 }
-
+@media (max-width: 768px) {
+  .afterschool .custom-ac-9 { 
+    padding: 3em 40px 5em 40px !important;
+  }
+}
 .afterschool .custom-ac-10 {
   padding: 1em 15% 2em 15% !important;
 }
 .afterschool .custom-ac-10 img{
   width: 100%;
 }
+
+@media (max-width: 768px) {
+  .afterschool .custom-ac-10 {
+    padding: 1em 40px 2em 40px !important;
+  }
+}
+
 .afterschool .custom-ac-7 {
   width: 70% !important;
 }
 
-
+.afterschool .custom-ac-11 {
+  padding-left: 1em;
+}
+@media (max-width: 768px) {
+  .afterschool .custom-ac-11 {
+    padding-left: 0;
+  }
+}
 .afterschool .lesson-table {
   width: 100%;
   /*max-width: 1200px;*/
