@@ -1294,7 +1294,7 @@ h1.custom-1{
   padding: 0;
 }
 .i-bar-div >div >img {
-  width: 80%;
+  width: 88%;
 }
 .i-bar-div >div >p {
   padding: 3em 2em;
@@ -1805,7 +1805,7 @@ h1.custom-1{
 }
 
 .afterschool .custom-ac-1 {
-  width: 80%;
+  width: 90%;
   margin: auto;
   padding: 3em 0;
 }
@@ -1816,7 +1816,7 @@ h1.custom-1{
 }
 
 .afterschool .custom-ac-3 {
-  width: 40%;
+  width: 49%;
   margin-bottom: .5em;
 }
 @media (max-width: 768px) { 
@@ -1827,7 +1827,6 @@ h1.custom-1{
 
 .afterschool .custom-ac-4 {
   padding-left: .5em;
-  padding-bottom: .5em;
   text-align: left;
 }
 .afterschool .custom-ac-5 {
@@ -1869,6 +1868,7 @@ h1.custom-1{
 .afterschool .custom-ac-7 {
   width: 70% !important;
 }
+
 
 .afterschool .lesson-table {
   width: 100%;
