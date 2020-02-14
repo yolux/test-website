@@ -1845,10 +1845,15 @@ h1.custom-1{
   margin: auto;
   font-size: .6em;
   padding-top: .6em;
+  text-align: justify;
 }
 @media (max-width: 768px) { 
   .afterschool .custom-ac-6 { font-size: 1rem;}
-  .afterschool .custom-ac-6 p{ width: 90%; }
+  .afterschool .custom-ac-6 p{ 
+    width: 90%; 
+    font-size: 1em;
+    text-align: justify;
+  }
 }
 
 @media (max-width: 768px) { 
