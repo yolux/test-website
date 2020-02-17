@@ -1751,7 +1751,6 @@ h1.custom-1{
 .afterschool h1 {
   padding-top: 1.5em;
   font-weight: bold;
-  font-size: 2.1em;
 }
 .afterschool .i-bar-div >div >p, .afterschool .i-bar-div p {
   text-align: justify;
@@ -1825,6 +1824,7 @@ h1.custom-1{
 }
 .afterschool .custom-ac-1 span{
   font-size: 1.7em;
+  color: #08338D;
   text-align: justify;
 } 
 .afterschool .custom-ac-2 {
