@@ -140,12 +140,12 @@ button:hover {
 
 .no-padding-bottom {padding-bottom: 0.5em !important; }
 .no-padding-top {padding-top: 0.5em !important; }
-
+/* header ------------------------------------- */
 header {
-  height: 140px;
+  height: 120px;
   display:flex;
   align-items: center;
-  padding: 0 40px;
+  padding: 0 5vw;
   justify-content: space-between;
 }
 header a img {
@@ -158,10 +158,24 @@ header .login {
   height: 30%;
 }
 header .login span {
-  margin-left: 1em;
+  margin-left: .6em;
   color: black;
 }
-
+@media (max-width: 800px) {
+  header {
+    height: 80px;
+  }
+  header .logo {
+    height: 50%;
+  }
+  header .login {
+    height: 50%;
+  }
+  header .login span {
+    display:none;
+  }
+}
+/* banner ------------------------------------- */
 .banner {
   width: 100%;
   height: fit-content;
@@ -383,13 +397,13 @@ header .login span {
   font-weight: bold;
   margin: 1em 0 .8em 0;
 }
-.c4.row table .contain-table {
+.c4.row .col.contain-table {
   overflow: scroll;
 }
 .c4.row table {
   display: inline-table;
   margin: 0 3em 2em 3em;
-  /*min-width: 30em;*/
+  min-width: 20em;
 }
 .c4.row table tr td {
   padding: 1.1em .5em;
@@ -516,4 +530,64 @@ header .login span {
 .c7.row .col h2 {
   font-size: 1.2em;
   padding: .2em 1em;
+}
+/* c8 ------------------------------------- */
+.c8.row {
+  padding: 3em 0 1.5em 0;
+}
+.c8.row .col {
+  padding: .3em 2em;
+}
+.c8.row .col.border-right{
+  border-right: 5px solid #EDEDED;
+}
+.c8.row .col img.logo {
+  width: 13em;
+  margin-bottom: 1em;
+}
+.c8.row .col img.qrcode {
+  width: 8em;
+}
+.c8.row .col h1 {
+  font-size: 1em;
+  font-weight: bold;
+  margin-bottom: .2em;
+}
+.c8.row .col .margin-top-1 {
+  margin-top: .4em;
+}
+.c8.row .col .margin-top-2 {
+  margin-top: .9em;
+}
+.c8.row .col >div.sp {
+  display: inline-block;
+  line-height: 2.1em;
+  vertical-align: top;
+}
+.c8.row .col >div {
+  font-size: .6em;
+  font-weight: lighter;
+  margin-bottom: 0;
+  line-height: 1.7em;
+}
+.c8.row .col .icon-t::before,
+.c8.row .col .icon-e::before,
+.c8.row .col .icon-w::before,
+.c8.row .col .icon-f::before {
+  content: 'F';
+  color: #006C3B;
+  margin-right: .5em;
+}
+.c8.row .col .icon-t::before {content: 'T';}
+.c8.row .col .icon-e::before {content: 'E';}
+.c8.row .col .icon-w::before {content: 'W';}
+
+/* footer ------------------------------------- */
+footer {
+  border-top: 2px solid #EDEDED;
+  text-align: center;
+  padding: 2em 0 4em 0;
+  width: fit-content;
+  margin: 0 auto;
+  font-size: .85em;
 }
