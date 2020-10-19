@@ -140,6 +140,8 @@ button:hover {
 
 .no-padding-bottom {padding-bottom: 0.5em !important; }
 .no-padding-top {padding-top: 0.5em !important; }
+
+.row {margin: 0;}
 /* header ------------------------------------- */
 header {
   height: 120px;
@@ -297,6 +299,7 @@ header .login span {
 }
 .c2.row .col {
   text-align: center;
+  padding: 0 2em;
 }
 .c2.row .col .text-sec-2 {
   font-size: 16px;
@@ -354,8 +357,8 @@ header .login span {
 }
 @media (min-width: 1500px) {
   .c2.row .col {
-    flex: 0 0 25%;
-    max-width: 25%;
+    flex: 0 0 33%;
+    max-width: 33%;
   }
 }
 /* c3 ------------------------------------- */
@@ -402,7 +405,7 @@ header .login span {
   margin: 0;
   letter-spacing: 1px;
 }
-@media (max-width: 800px) {
+@media (max-width: 992px) {
   .c3.row .col img {
     width: 80%;
     position: relative;
@@ -482,6 +485,12 @@ header .login span {
 .c4.row table .cell-3 {
   width: 20em;
 }
+@media (max-width: 576px) {
+  .c4.row table {
+    margin: 0 .2em 2em .2em;
+    font-size: .9em;
+  }
+}
 
 /* c5 ------------------------------------- */
 .c5.row {
@@ -546,6 +555,9 @@ header .login span {
     width: 210%;
     bottom: -6vw;
     left: -13vw;
+  }
+  .c6.row .col p {
+    font-size: 0.8em;
   }
 }
 @media (max-width: 992px) {
