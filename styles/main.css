@@ -238,7 +238,7 @@ header .login span {
   text-align: center;
 }
 .c1 >div.title h1 {
-  font-size: 1.9em;
+  font-size: 2.2em;
 }
 .c1 >div.title h2 {
   font-size: 1.2em;
@@ -299,7 +299,7 @@ header .login span {
   text-align: center;
 }
 .c2.row .col .text-sec-2 {
-  font-size: 12px;
+  font-size: 16px;
   margin-top: 2em;
 }
 .c2.row .col .text-sec-2 span {
@@ -326,7 +326,7 @@ header .login span {
 .c2.row .col .text-sec-1 h3 {
   position: relative;
   /*top: -0.8em;*/
-  font-size: 1em; 
+  font-size: 1.4em; 
   line-height: 1em;
   margin: 0;
 }
@@ -383,7 +383,7 @@ header .login span {
   position: relative;
 }
 .c3.row .col .text-sec-2 {
-  font-size: 14px;
+  font-size: 16px;
   margin-top: 2em;
 }
 .c3.row .col .text-sec-2 span {
@@ -396,7 +396,7 @@ header .login span {
   color: #006C3B;
 }
 .c3.row .col .text-sec-1 h1 {
-  font-size: 2em; 
+  font-size: 2.2em; 
   line-height: 1em;
   text-align: center;
   margin: 0;
@@ -411,7 +411,7 @@ header .login span {
     min-width: unset;
   }
   .c3.row .col .text-sec-2 {
-    font-size: 12px;
+    font-size: 15px;
   }
   .c3.row {
     padding: 2em 0 1em 0;
@@ -428,8 +428,8 @@ header .login span {
 }
 .c4.row .col h1 {
   color: #006C3B; 
-  font-weight: bold;
   margin: 1em 0 .8em 0;
+  font-size: 2.2em;
 }
 .c4.row .col.contain-table {
   overflow: auto;
@@ -501,8 +501,8 @@ header .login span {
 .c5.row .col h1 {
   text-align: center;
   color: #006C3B; 
-  font-weight: bold;
   margin-bottom: .5em;
+  font-size: 2.2em;
 }
 .c5.row .col p {
   text-align: center;
